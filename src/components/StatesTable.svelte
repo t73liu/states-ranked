@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { formatPercent } from "../utils/numbers";
   import { State } from "../types/state";
   import json from "../data/states.json";
   const states = json as State[];
@@ -30,13 +31,13 @@
             {state.name}
           </th>
           <td class="py-4 px-6">
-            {state.population}
+            {state.population.toLocaleString()}
           </td>
           <td class="py-4 px-6">
-            {state.realEstateTax}
+            {formatPercent(state.realEstateTax)}
           </td>
           <td class="py-4 px-6">
-            {state.salesTax}
+            {formatPercent(state.salesTax)}
           </td>
         </tr>
       {/each}

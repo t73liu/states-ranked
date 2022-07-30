@@ -5,5 +5,5 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   site: "https://t73liu.github.io/states-ranked",
-  integrations: [svelte(), tailwind()]
+  integrations: [tailwind(), svelte()]
 });
