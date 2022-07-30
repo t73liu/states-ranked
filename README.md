@@ -1,4 +1,4 @@
-# [States Ranked](https://states-ranked.github.io/)
+# [States Ranked](https://t73liu.github.io/states-ranked/)
 
 This site is used to rank USA states by taxes, etc. The website is generated
 by Astro and Svelte.
