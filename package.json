@@ -9,7 +9,9 @@
     "deploy": "astro build && gh-pages -d dist"
   },
   "devDependencies": {
+    "@astrojs/svelte": "^0.5.1",
     "astro": "^1.0.0-rc.2",
-    "gh-pages": "^4.0.0"
+    "gh-pages": "^4.0.0",
+    "svelte": "^3.46.4"
   }
 }
