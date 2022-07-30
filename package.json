@@ -1,0 +1,13 @@
+{
+  "name": "states-ranked",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "astro": "^1.0.0-rc.2"
+  }
+}

@@ -1,0 +1,352 @@
+[
+  {
+    "id": "AL",
+    "name": "Alabama",
+    "population": 5024279,
+    "realEstateTax": 0.0041,
+    "salesTax": 0.04
+  },
+  {
+    "id": "AK",
+    "name": "Alaska",
+    "population": 733391,
+    "realEstateTax": 0.0119,
+    "salesTax": 0
+  },
+  {
+    "id": "AZ",
+    "name": "Arizona",
+    "population": 7151502,
+    "realEstateTax": 0.0066,
+    "salesTax": 0.056
+  },
+  {
+    "id": "AR",
+    "name": "Arkansas",
+    "population": 3011524,
+    "realEstateTax": 0.0062,
+    "salesTax": 0.065
+  },
+  {
+    "id": "CA",
+    "name": "California",
+    "population": 39538223,
+    "realEstateTax": 0.0076,
+    "salesTax": 0.0725
+  },
+  {
+    "id": "CO",
+    "name": "Colorado",
+    "population": 5773714,
+    "realEstateTax": 0.0051,
+    "salesTax": 0.029
+  },
+  {
+    "id": "CT",
+    "name": "Connecticut",
+    "population": 3605944,
+    "realEstateTax": 0.0214,
+    "salesTax": 0.0635
+  },
+  {
+    "id": "DE",
+    "name": "Delaware",
+    "population": 989948,
+    "realEstateTax": 0.0057,
+    "salesTax": 0
+  },
+  {
+    "id": "FL",
+    "name": "Florida",
+    "population": 21538187,
+    "realEstateTax": 0.0089,
+    "salesTax": 0.06
+  },
+  {
+    "id": "GA",
+    "name": "Georgia",
+    "population": 10711908,
+    "realEstateTax": 0.0092,
+    "salesTax": 0.04
+  },
+  {
+    "id": "HI",
+    "name": "Hawaii",
+    "population": 1455271,
+    "realEstateTax": 0.0028,
+    "salesTax": 0.04
+  },
+  {
+    "id": "ID",
+    "name": "Idaho",
+    "population": 1839106,
+    "realEstateTax": 0.0069,
+    "salesTax": 0.06
+  },
+  {
+    "id": "IL",
+    "name": "Illinois",
+    "population": 12812508,
+    "realEstateTax": 0.0227,
+    "salesTax": 0.0625
+  },
+  {
+    "id": "IN",
+    "name": "Indiana",
+    "population": 6785528,
+    "realEstateTax": 0.0085,
+    "salesTax": 0.07
+  },
+  {
+    "id": "IA",
+    "name": "Iowa",
+    "population": 3190369,
+    "realEstateTax": 0.0157,
+    "salesTax": 0.06
+  },
+  {
+    "id": "KS",
+    "name": "Kansas",
+    "population": 2937880,
+    "realEstateTax": 0.0141,
+    "salesTax": 0.065
+  },
+  {
+    "id": "KY",
+    "name": "Kentucky",
+    "population": 4505836,
+    "realEstateTax": 0.0086,
+    "salesTax": 0.06
+  },
+  {
+    "id": "LA",
+    "name": "Louisiana",
+    "population": 4657757,
+    "realEstateTax": 0.0055,
+    "salesTax": 0.0445
+  },
+  {
+    "id": "ME",
+    "name": "Maine",
+    "population": 1362359,
+    "realEstateTax": 0.0136,
+    "salesTax": 0.055
+  },
+  {
+    "id": "MD",
+    "name": "Maryland",
+    "population": 6177224,
+    "realEstateTax": 0.0109,
+    "salesTax": 0.06
+  },
+  {
+    "id": "MA",
+    "name": "Massachusetts",
+    "population": 7029917,
+    "realEstateTax": 0.0123,
+    "salesTax": 0.0625
+  },
+  {
+    "id": "MI",
+    "name": "Michigan",
+    "population": 10077331,
+    "realEstateTax": 0.0154,
+    "salesTax": 0.06
+  },
+  {
+    "id": "MN",
+    "name": "Minnesota",
+    "population": 5706494,
+    "realEstateTax": 0.0112,
+    "salesTax": 0.06875
+  },
+  {
+    "id": "MS",
+    "name": "Mississippi",
+    "population": 2961279,
+    "realEstateTax": 0.0081,
+    "salesTax": 0.07
+  },
+  {
+    "id": "MO",
+    "name": "Missouri",
+    "population": 6154913,
+    "realEstateTax": 0.0097,
+    "salesTax": 0.04225
+  },
+  {
+    "id": "MT",
+    "name": "Montana",
+    "population": 1084225,
+    "realEstateTax": 0.0084,
+    "salesTax": 0
+  },
+  {
+    "id": "NE",
+    "name": "Nebraska",
+    "population": 1961504,
+    "realEstateTax": 0.0173,
+    "salesTax": 0.055
+  },
+  {
+    "id": "NV",
+    "name": "Nevada",
+    "population": 3104614,
+    "realEstateTax": 0.006,
+    "salesTax": 0.0685
+  },
+  {
+    "id": "NH",
+    "name": "New Hampshire",
+    "population": 1377529,
+    "realEstateTax": 0.0218,
+    "salesTax": 0
+  },
+  {
+    "id": "NJ",
+    "name": "New Jersey",
+    "population": 9288994,
+    "realEstateTax": 0.0249,
+    "salesTax": 0.06625
+  },
+  {
+    "id": "NM",
+    "name": "New Mexico",
+    "population": 2117522,
+    "realEstateTax": 0.008,
+    "salesTax": 0.05
+  },
+  {
+    "id": "NY",
+    "name": "New York",
+    "population": 20201249,
+    "realEstateTax": 0.0172,
+    "salesTax": 0.04
+  },
+  {
+    "id": "NC",
+    "name": "North Carolina",
+    "population": 10439388,
+    "realEstateTax": 0.0084,
+    "salesTax": 0.0475
+  },
+  {
+    "id": "ND",
+    "name": "North Dakota",
+    "population": 779094,
+    "realEstateTax": 0.0098,
+    "salesTax": 0.05
+  },
+  {
+    "id": "OH",
+    "name": "Ohio",
+    "population": 11799448,
+    "realEstateTax": 0.0156,
+    "salesTax": 0.0575
+  },
+  {
+    "id": "OK",
+    "name": "Oklahoma",
+    "population": 3959353,
+    "realEstateTax": 0.009,
+    "salesTax": 0.045
+  },
+  {
+    "id": "OR",
+    "name": "Oregon",
+    "population": 4237256,
+    "realEstateTax": 0.0097,
+    "salesTax": 0
+  },
+  {
+    "id": "PA",
+    "name": "Pennsylvania",
+    "population": 13002700,
+    "realEstateTax": 0.0158,
+    "salesTax": 0.06
+  },
+  {
+    "id": "RI",
+    "name": "Rhode Island",
+    "population": 1097379,
+    "realEstateTax": 0.0163,
+    "salesTax": 0.07
+  },
+  {
+    "id": "SC",
+    "name": "South Carolina",
+    "population": 5118425,
+    "realEstateTax": 0.0057,
+    "salesTax": 0.06
+  },
+  {
+    "id": "SD",
+    "name": "South Dakota",
+    "population": 886667,
+    "realEstateTax": 0.0131,
+    "salesTax": 0.045
+  },
+  {
+    "id": "TN",
+    "name": "Tennessee",
+    "population": 6910840,
+    "realEstateTax": 0.0071,
+    "salesTax": 0.07
+  },
+  {
+    "id": "TX",
+    "name": "Texas",
+    "population": 29145505,
+    "realEstateTax": 0.018,
+    "salesTax": 0.0625
+  },
+  {
+    "id": "UT",
+    "name": "Utah",
+    "population": 3271616,
+    "realEstateTax": 0.0063,
+    "salesTax": 0.061
+  },
+  {
+    "id": "VT",
+    "name": "Vermont",
+    "population": 643077,
+    "realEstateTax": 0.019,
+    "salesTax": 0.06
+  },
+  {
+    "id": "VA",
+    "name": "Virginia",
+    "population": 8631393,
+    "realEstateTax": 0.0082,
+    "salesTax": 0.053
+  },
+  {
+    "id": "WA",
+    "name": "Washington",
+    "population": 7705281,
+    "realEstateTax": 0.0098,
+    "salesTax": 0.065
+  },
+  {
+    "id": "WV",
+    "name": "West Virginia",
+    "population": 1793716,
+    "realEstateTax": 0.0058,
+    "salesTax": 0.06
+  },
+  {
+    "id": "WI",
+    "name": "Wisconsin",
+    "population": 5893718,
+    "realEstateTax": 0.0185,
+    "salesTax": 0.05
+  },
+  {
+    "id": "WY",
+    "name": "Wyoming",
+    "population": 576851,
+    "realEstateTax": 0.0061,
+    "salesTax": 0.04
+  }
+]
