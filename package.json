@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "@astrojs/svelte": "^0.5.1",
+    "@astrojs/tailwind": "^0.2.5",
     "astro": "^1.0.0-rc.2",
     "gh-pages": "^4.0.0",
     "svelte": "^3.46.4"
