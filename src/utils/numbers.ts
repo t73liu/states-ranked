@@ -6,4 +6,4 @@ const percentFormat = new Intl.NumberFormat("default", {
 
 export const formatPercent = (num: number): string => {
   return percentFormat.format(num);
-}
+};
