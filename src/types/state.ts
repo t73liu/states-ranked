@@ -8,10 +8,14 @@ export interface State {
   violentCrimeRate: number;
   realEstateTax: number;
   salesTax: number;
-  personalIncomeTax: TaxBracket[];
+  personalIncomeTaxBrackets: TaxBracket[];
   // Some states have an alternate tax brackets for higher personal income.
-  highIncomeTax?: AlternateTaxBracket;
-  corporateTax: TaxBracket[];
+  highIncomeTaxBrackets?: AlternateTaxBracket;
+  corporateTaxBrackets: TaxBracket[];
+
+  // Derived average tax rate.
+  personalIncomeTax: number;
+  corporateTax: number;
 }
 
 export interface AlternateTaxBracket {

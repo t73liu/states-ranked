@@ -5,7 +5,7 @@
     "violentCrimeRate": 453.6,
     "costOfLivingIndex": 87.5,
     "population": 5024279,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.02,
         "minimumIncome": 0
@@ -19,7 +19,7 @@
         "minimumIncome": 3000
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.065,
         "minimumIncome": 0
@@ -34,13 +34,13 @@
     "violentCrimeRate": 837.8,
     "costOfLivingIndex": 127.3,
     "population": 733391,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0,
         "minimumIncome": 0
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0,
         "minimumIncome": 0
@@ -91,7 +91,7 @@
     "violentCrimeRate": 654.8,
     "costOfLivingIndex": 106.7,
     "population": 7151502,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.0259,
         "minimumIncome": 0
@@ -109,7 +109,7 @@
         "minimumIncome": 166843
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.049,
         "minimumIncome": 0
@@ -126,7 +126,7 @@
     "population": 3011524,
     "highIncomeTax": {
       "minimumIncome": 84500,
-      "personalIncomeTax": [
+      "personalIncomeTaxBrackets": [
         {
           "taxRate": 0.02,
           "minimumIncome": 0
@@ -141,7 +141,7 @@
         }
       ]
     },
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0,
         "minimumIncome": 0
@@ -167,7 +167,7 @@
         "minimumIncome": 39700
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.01,
         "minimumIncome": 0
@@ -198,7 +198,7 @@
     "violentCrimeRate": 442.0,
     "costOfLivingIndex": 139.7,
     "population": 39538223,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.01,
         "minimumIncome": 0
@@ -240,7 +240,7 @@
         "minimumIncome": 1000000
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.0884,
         "minimumIncome": 0
@@ -255,13 +255,13 @@
     "violentCrimeRate": 423.1,
     "costOfLivingIndex": 102.4,
     "population": 5773714,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.0455,
         "minimumIncome": 0
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.0455,
         "minimumIncome": 0
@@ -276,7 +276,7 @@
     "violentCrimeRate": 181.6,
     "costOfLivingIndex": 118.9,
     "population": 3605944,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.03,
         "minimumIncome": 0
@@ -306,7 +306,7 @@
         "minimumIncome": 500000
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.075,
         "minimumIncome": 0
@@ -321,7 +321,7 @@
     "violentCrimeRate": 431.9,
     "costOfLivingIndex": 105.8,
     "population": 989948,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0,
         "minimumIncome": 0
@@ -351,7 +351,7 @@
         "minimumIncome": 60000
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.087,
         "minimumIncome": 0
@@ -366,13 +366,13 @@
     "violentCrimeRate": 383.6,
     "costOfLivingIndex": 102.6,
     "population": 21538187,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0,
         "minimumIncome": 0
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.055,
         "minimumIncome": 0
@@ -387,7 +387,7 @@
     "violentCrimeRate": 400.1,
     "costOfLivingIndex": 88.2,
     "population": 10711908,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.01,
         "minimumIncome": 0
@@ -413,7 +413,7 @@
         "minimumIncome": 7000
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.0575,
         "minimumIncome": 0
@@ -428,7 +428,7 @@
     "violentCrimeRate": 254.2,
     "costOfLivingIndex": 192.7,
     "population": 1455271,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.014,
         "minimumIncome": 0
@@ -478,7 +478,7 @@
         "minimumIncome": 200000
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.044,
         "minimumIncome": 0
@@ -501,7 +501,7 @@
     "violentCrimeRate": 242.6,
     "costOfLivingIndex": 99.4,
     "population": 1839106,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.01,
         "minimumIncome": 0
@@ -519,7 +519,7 @@
         "minimumIncome": 7939
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.06,
         "minimumIncome": 0
@@ -534,13 +534,13 @@
     "violentCrimeRate": 425.9,
     "costOfLivingIndex": 91.7,
     "population": 12812508,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.0495,
         "minimumIncome": 0
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.095,
         "minimumIncome": 0
@@ -555,13 +555,13 @@
     "violentCrimeRate": 357.7,
     "costOfLivingIndex": 89.2,
     "population": 6785528,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.0323,
         "minimumIncome": 0
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.049,
         "minimumIncome": 0
@@ -576,7 +576,7 @@
     "violentCrimeRate": 303.5,
     "costOfLivingIndex": 88.1,
     "population": 3190369,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.0033,
         "minimumIncome": 0
@@ -614,7 +614,7 @@
         "minimumIncome": 78435
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.055,
         "minimumIncome": 0
@@ -637,7 +637,7 @@
     "violentCrimeRate": 425.0,
     "costOfLivingIndex": 85.4,
     "population": 2937880,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.031,
         "minimumIncome": 0
@@ -651,7 +651,7 @@
         "minimumIncome": 30000
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.04,
         "minimumIncome": 0
@@ -670,13 +670,13 @@
     "violentCrimeRate": 259.1,
     "costOfLivingIndex": 93.6,
     "population": 4505836,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.05,
         "minimumIncome": 0
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.05,
         "minimumIncome": 0
@@ -691,7 +691,7 @@
     "violentCrimeRate": 639.4,
     "costOfLivingIndex": 93.3,
     "population": 4657757,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.0185,
         "minimumIncome": 0
@@ -705,7 +705,7 @@
         "minimumIncome": 50000
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.035,
         "minimumIncome": 0
@@ -728,7 +728,7 @@
     "violentCrimeRate": 108.6,
     "costOfLivingIndex": 115.1,
     "population": 1362359,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.058,
         "minimumIncome": 0
@@ -742,7 +742,7 @@
         "minimumIncome": 54450
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.035,
         "minimumIncome": 0
@@ -769,7 +769,7 @@
     "violentCrimeRate": 399.9,
     "costOfLivingIndex": 126.4,
     "population": 6177224,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.02,
         "minimumIncome": 0
@@ -803,7 +803,7 @@
         "minimumIncome": 250000
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.0825,
         "minimumIncome": 0
@@ -818,13 +818,13 @@
     "violentCrimeRate": 308.8,
     "costOfLivingIndex": 130.2,
     "population": 7029917,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.05,
         "minimumIncome": 0
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.08,
         "minimumIncome": 0
@@ -839,13 +839,13 @@
     "violentCrimeRate": 478.0,
     "costOfLivingIndex": 89.9,
     "population": 10077331,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.0425,
         "minimumIncome": 0
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.06,
         "minimumIncome": 0
@@ -860,7 +860,7 @@
     "violentCrimeRate": 277.5,
     "costOfLivingIndex": 97.2,
     "population": 5706494,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.0535,
         "minimumIncome": 0
@@ -878,7 +878,7 @@
         "minimumIncome": 171220
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.098,
         "minimumIncome": 0
@@ -893,7 +893,7 @@
     "violentCrimeRate": 291.2,
     "costOfLivingIndex": 83.1,
     "population": 2961279,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0,
         "minimumIncome": 0
@@ -907,7 +907,7 @@
         "minimumIncome": 10000
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.04,
         "minimumIncome": 5000
@@ -926,7 +926,7 @@
     "violentCrimeRate": 542.7,
     "costOfLivingIndex": 90.5,
     "population": 6154913,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0,
         "minimumIncome": 0
@@ -968,7 +968,7 @@
         "minimumIncome": 8704
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.04,
         "minimumIncome": 0
@@ -983,7 +983,7 @@
     "violentCrimeRate": 469.8,
     "costOfLivingIndex": 104.4,
     "population": 1084225,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.01,
         "minimumIncome": 0
@@ -1013,7 +1013,7 @@
         "minimumIncome": 18800
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.0675,
         "minimumIncome": 0
@@ -1028,7 +1028,7 @@
     "violentCrimeRate": 334.1,
     "costOfLivingIndex": 91.8,
     "population": 1961504,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.0246,
         "minimumIncome": 0
@@ -1046,7 +1046,7 @@
         "minimumIncome": 33180
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.0558,
         "minimumIncome": 0
@@ -1065,13 +1065,13 @@
     "violentCrimeRate": 460.3,
     "costOfLivingIndex": 103.1,
     "population": 3104614,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0,
         "minimumIncome": 0
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0,
         "minimumIncome": 0
@@ -1086,13 +1086,13 @@
     "violentCrimeRate": 146.4,
     "costOfLivingIndex": 117.4,
     "population": 1377529,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0,
         "minimumIncome": 0
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.076,
         "minimumIncome": 0
@@ -1107,7 +1107,7 @@
     "violentCrimeRate": 195.4,
     "costOfLivingIndex": 112.9,
     "population": 9288994,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.014,
         "minimumIncome": 0
@@ -1137,7 +1137,7 @@
         "minimumIncome": 1000000
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.065,
         "minimumIncome": 0
@@ -1164,7 +1164,7 @@
     "violentCrimeRate": 778.3,
     "costOfLivingIndex": 93.9,
     "population": 2117522,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.017,
         "minimumIncome": 0
@@ -1186,7 +1186,7 @@
         "minimumIncome": 210000
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.048,
         "minimumIncome": 0
@@ -1205,7 +1205,7 @@
     "violentCrimeRate": 363.8,
     "costOfLivingIndex": 152.1,
     "population": 20201249,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.04,
         "minimumIncome": 0
@@ -1243,7 +1243,7 @@
         "minimumIncome": 25000000
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.065,
         "minimumIncome": 0
@@ -1262,13 +1262,13 @@
     "violentCrimeRate": 419.3,
     "costOfLivingIndex": 95.0,
     "population": 10439388,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.0499,
         "minimumIncome": 0
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.025,
         "minimumIncome": 0
@@ -1283,7 +1283,7 @@
     "violentCrimeRate": 329.0,
     "costOfLivingIndex": 96.8,
     "population": 779094,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.011,
         "minimumIncome": 0
@@ -1305,7 +1305,7 @@
         "minimumIncome": 445000
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.0141,
         "minimumIncome": 0
@@ -1328,7 +1328,7 @@
     "violentCrimeRate": 308.8,
     "costOfLivingIndex": 90.8,
     "population": 11799448,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.02765,
         "minimumIncome": 25000
@@ -1346,7 +1346,7 @@
         "minimumIncome": 110650
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0,
         "minimumIncome": 0
@@ -1361,7 +1361,7 @@
     "violentCrimeRate": 458.6,
     "costOfLivingIndex": 84.8,
     "population": 3959353,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.0025,
         "minimumIncome": 0
@@ -1387,7 +1387,7 @@
         "minimumIncome": 7200
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.04,
         "minimumIncome": 0
@@ -1402,7 +1402,7 @@
     "violentCrimeRate": 291.9,
     "costOfLivingIndex": 125.2,
     "population": 4237256,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.0475,
         "minimumIncome": 0
@@ -1420,7 +1420,7 @@
         "minimumIncome": 125000
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.066,
         "minimumIncome": 0
@@ -1439,13 +1439,13 @@
     "violentCrimeRate": 389.5,
     "costOfLivingIndex": 97.5,
     "population": 13002700,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.0307,
         "minimumIncome": 0
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.0999,
         "minimumIncome": 0
@@ -1460,7 +1460,7 @@
     "violentCrimeRate": 230.8,
     "costOfLivingIndex": 112.8,
     "population": 1097379,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.0375,
         "minimumIncome": 0
@@ -1474,7 +1474,7 @@
         "minimumIncome": 155050
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.07,
         "minimumIncome": 0
@@ -1489,7 +1489,7 @@
     "violentCrimeRate": 530.7,
     "costOfLivingIndex": 93.9,
     "population": 5118425,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0,
         "minimumIncome": 0
@@ -1515,7 +1515,7 @@
         "minimumIncome": 16040
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.05,
         "minimumIncome": 0
@@ -1530,13 +1530,13 @@
     "violentCrimeRate": 501.4,
     "costOfLivingIndex": 95.2,
     "population": 886667,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0,
         "minimumIncome": 0
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0,
         "minimumIncome": 0
@@ -1551,13 +1551,13 @@
     "violentCrimeRate": 672.7,
     "costOfLivingIndex": 89.4,
     "population": 6910840,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0,
         "minimumIncome": 0
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.065,
         "minimumIncome": 0
@@ -1572,13 +1572,13 @@
     "violentCrimeRate": 446.5,
     "costOfLivingIndex": 92.1,
     "population": 29145505,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0,
         "minimumIncome": 0
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0,
         "minimumIncome": 0
@@ -1593,13 +1593,13 @@
     "violentCrimeRate": 260.7,
     "costOfLivingIndex": 104.2,
     "population": 3271616,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.0495,
         "minimumIncome": 0
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.0495,
         "minimumIncome": 0
@@ -1614,7 +1614,7 @@
     "violentCrimeRate": 173.4,
     "costOfLivingIndex": 116.9,
     "population": 643077,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.0335,
         "minimumIncome": 0
@@ -1632,7 +1632,7 @@
         "minimumIncome": 206950
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.06,
         "minimumIncome": 0
@@ -1655,7 +1655,7 @@
     "violentCrimeRate": 208.0,
     "costOfLivingIndex": 102.7,
     "population": 8631393,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.02,
         "minimumIncome": 0
@@ -1673,7 +1673,7 @@
         "minimumIncome": 17000
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.06,
         "minimumIncome": 0
@@ -1688,13 +1688,13 @@
     "violentCrimeRate": 293.7,
     "costOfLivingIndex": 113.9,
     "population": 7705281,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0,
         "minimumIncome": 0
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0,
         "minimumIncome": 0
@@ -1709,7 +1709,7 @@
     "violentCrimeRate": 355.9,
     "costOfLivingIndex": 90.5,
     "population": 1793716,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.03,
         "minimumIncome": 0
@@ -1731,7 +1731,7 @@
         "minimumIncome": 60000
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.065,
         "minimumIncome": 0
@@ -1746,7 +1746,7 @@
     "violentCrimeRate": 323.4,
     "costOfLivingIndex": 95.5,
     "population": 5893718,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0.0354,
         "minimumIncome": 0
@@ -1764,7 +1764,7 @@
         "minimumIncome": 280950
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0.079,
         "minimumIncome": 0
@@ -1779,13 +1779,13 @@
     "violentCrimeRate": 234.2,
     "costOfLivingIndex": 93.9,
     "population": 576851,
-    "personalIncomeTax": [
+    "personalIncomeTaxBrackets": [
       {
         "taxRate": 0,
         "minimumIncome": 0
       }
     ],
-    "corporateTax": [
+    "corporateTaxBrackets": [
       {
         "taxRate": 0,
         "minimumIncome": 0
