@@ -2,6 +2,8 @@
   {
     "id": "AL",
     "name": "Alabama",
+    "violentCrimeRate": 453.6,
+    "costOfLivingIndex": 87.5,
     "population": 5024279,
     "personalIncomeTax": [
       {
@@ -29,6 +31,8 @@
   {
     "id": "AK",
     "name": "Alaska",
+    "violentCrimeRate": 837.8,
+    "costOfLivingIndex": 127.3,
     "population": 733391,
     "personalIncomeTax": [
       {
@@ -84,6 +88,8 @@
   {
     "id": "AZ",
     "name": "Arizona",
+    "violentCrimeRate": 654.8,
+    "costOfLivingIndex": 106.7,
     "population": 7151502,
     "personalIncomeTax": [
       {
@@ -115,6 +121,8 @@
   {
     "id": "AR",
     "name": "Arkansas",
+    "violentCrimeRate": 671.9,
+    "costOfLivingIndex": 89.9,
     "population": 3011524,
     "highIncomeTax": {
       "minimumIncome": 84500,
@@ -187,6 +195,8 @@
   {
     "id": "CA",
     "name": "California",
+    "violentCrimeRate": 442.0,
+    "costOfLivingIndex": 139.7,
     "population": 39538223,
     "personalIncomeTax": [
       {
@@ -242,6 +252,8 @@
   {
     "id": "CO",
     "name": "Colorado",
+    "violentCrimeRate": 423.1,
+    "costOfLivingIndex": 102.4,
     "population": 5773714,
     "personalIncomeTax": [
       {
@@ -261,6 +273,8 @@
   {
     "id": "CT",
     "name": "Connecticut",
+    "violentCrimeRate": 181.6,
+    "costOfLivingIndex": 118.9,
     "population": 3605944,
     "personalIncomeTax": [
       {
@@ -304,6 +318,8 @@
   {
     "id": "DE",
     "name": "Delaware",
+    "violentCrimeRate": 431.9,
+    "costOfLivingIndex": 105.8,
     "population": 989948,
     "personalIncomeTax": [
       {
@@ -347,6 +363,8 @@
   {
     "id": "FL",
     "name": "Florida",
+    "violentCrimeRate": 383.6,
+    "costOfLivingIndex": 102.6,
     "population": 21538187,
     "personalIncomeTax": [
       {
@@ -366,6 +384,8 @@
   {
     "id": "GA",
     "name": "Georgia",
+    "violentCrimeRate": 400.1,
+    "costOfLivingIndex": 88.2,
     "population": 10711908,
     "personalIncomeTax": [
       {
@@ -405,6 +425,8 @@
   {
     "id": "HI",
     "name": "Hawaii",
+    "violentCrimeRate": 254.2,
+    "costOfLivingIndex": 192.7,
     "population": 1455271,
     "personalIncomeTax": [
       {
@@ -476,6 +498,8 @@
   {
     "id": "ID",
     "name": "Idaho",
+    "violentCrimeRate": 242.6,
+    "costOfLivingIndex": 99.4,
     "population": 1839106,
     "personalIncomeTax": [
       {
@@ -507,6 +531,8 @@
   {
     "id": "IL",
     "name": "Illinois",
+    "violentCrimeRate": 425.9,
+    "costOfLivingIndex": 91.7,
     "population": 12812508,
     "personalIncomeTax": [
       {
@@ -526,6 +552,8 @@
   {
     "id": "IN",
     "name": "Indiana",
+    "violentCrimeRate": 357.7,
+    "costOfLivingIndex": 89.2,
     "population": 6785528,
     "personalIncomeTax": [
       {
@@ -545,6 +573,8 @@
   {
     "id": "IA",
     "name": "Iowa",
+    "violentCrimeRate": 303.5,
+    "costOfLivingIndex": 88.1,
     "population": 3190369,
     "personalIncomeTax": [
       {
@@ -604,6 +634,8 @@
   {
     "id": "KS",
     "name": "Kansas",
+    "violentCrimeRate": 425.0,
+    "costOfLivingIndex": 85.4,
     "population": 2937880,
     "personalIncomeTax": [
       {
@@ -635,6 +667,8 @@
   {
     "id": "KY",
     "name": "Kentucky",
+    "violentCrimeRate": 259.1,
+    "costOfLivingIndex": 93.6,
     "population": 4505836,
     "personalIncomeTax": [
       {
@@ -654,6 +688,8 @@
   {
     "id": "LA",
     "name": "Louisiana",
+    "violentCrimeRate": 639.4,
+    "costOfLivingIndex": 93.3,
     "population": 4657757,
     "personalIncomeTax": [
       {
@@ -689,6 +725,8 @@
   {
     "id": "ME",
     "name": "Maine",
+    "violentCrimeRate": 108.6,
+    "costOfLivingIndex": 115.1,
     "population": 1362359,
     "personalIncomeTax": [
       {
@@ -728,6 +766,8 @@
   {
     "id": "MD",
     "name": "Maryland",
+    "violentCrimeRate": 399.9,
+    "costOfLivingIndex": 126.4,
     "population": 6177224,
     "personalIncomeTax": [
       {
@@ -775,6 +815,8 @@
   {
     "id": "MA",
     "name": "Massachusetts",
+    "violentCrimeRate": 308.8,
+    "costOfLivingIndex": 130.2,
     "population": 7029917,
     "personalIncomeTax": [
       {
@@ -794,6 +836,8 @@
   {
     "id": "MI",
     "name": "Michigan",
+    "violentCrimeRate": 478.0,
+    "costOfLivingIndex": 89.9,
     "population": 10077331,
     "personalIncomeTax": [
       {
@@ -813,6 +857,8 @@
   {
     "id": "MN",
     "name": "Minnesota",
+    "violentCrimeRate": 277.5,
+    "costOfLivingIndex": 97.2,
     "population": 5706494,
     "personalIncomeTax": [
       {
@@ -844,6 +890,8 @@
   {
     "id": "MS",
     "name": "Mississippi",
+    "violentCrimeRate": 291.2,
+    "costOfLivingIndex": 83.1,
     "population": 2961279,
     "personalIncomeTax": [
       {
@@ -875,6 +923,8 @@
   {
     "id": "MO",
     "name": "Missouri",
+    "violentCrimeRate": 542.7,
+    "costOfLivingIndex": 90.5,
     "population": 6154913,
     "personalIncomeTax": [
       {
@@ -930,6 +980,8 @@
   {
     "id": "MT",
     "name": "Montana",
+    "violentCrimeRate": 469.8,
+    "costOfLivingIndex": 104.4,
     "population": 1084225,
     "personalIncomeTax": [
       {
@@ -973,6 +1025,8 @@
   {
     "id": "NE",
     "name": "Nebraska",
+    "violentCrimeRate": 334.1,
+    "costOfLivingIndex": 91.8,
     "population": 1961504,
     "personalIncomeTax": [
       {
@@ -1008,6 +1062,8 @@
   {
     "id": "NV",
     "name": "Nevada",
+    "violentCrimeRate": 460.3,
+    "costOfLivingIndex": 103.1,
     "population": 3104614,
     "personalIncomeTax": [
       {
@@ -1027,6 +1083,8 @@
   {
     "id": "NH",
     "name": "New Hampshire",
+    "violentCrimeRate": 146.4,
+    "costOfLivingIndex": 117.4,
     "population": 1377529,
     "personalIncomeTax": [
       {
@@ -1046,6 +1104,8 @@
   {
     "id": "NJ",
     "name": "New Jersey",
+    "violentCrimeRate": 195.4,
+    "costOfLivingIndex": 112.9,
     "population": 9288994,
     "personalIncomeTax": [
       {
@@ -1101,6 +1161,8 @@
   {
     "id": "NM",
     "name": "New Mexico",
+    "violentCrimeRate": 778.3,
+    "costOfLivingIndex": 93.9,
     "population": 2117522,
     "personalIncomeTax": [
       {
@@ -1140,6 +1202,8 @@
   {
     "id": "NY",
     "name": "New York",
+    "violentCrimeRate": 363.8,
+    "costOfLivingIndex": 152.1,
     "population": 20201249,
     "personalIncomeTax": [
       {
@@ -1195,6 +1259,8 @@
   {
     "id": "NC",
     "name": "North Carolina",
+    "violentCrimeRate": 419.3,
+    "costOfLivingIndex": 95.0,
     "population": 10439388,
     "personalIncomeTax": [
       {
@@ -1214,6 +1280,8 @@
   {
     "id": "ND",
     "name": "North Dakota",
+    "violentCrimeRate": 329.0,
+    "costOfLivingIndex": 96.8,
     "population": 779094,
     "personalIncomeTax": [
       {
@@ -1257,6 +1325,8 @@
   {
     "id": "OH",
     "name": "Ohio",
+    "violentCrimeRate": 308.8,
+    "costOfLivingIndex": 90.8,
     "population": 11799448,
     "personalIncomeTax": [
       {
@@ -1288,6 +1358,8 @@
   {
     "id": "OK",
     "name": "Oklahoma",
+    "violentCrimeRate": 458.6,
+    "costOfLivingIndex": 84.8,
     "population": 3959353,
     "personalIncomeTax": [
       {
@@ -1327,6 +1399,8 @@
   {
     "id": "OR",
     "name": "Oregon",
+    "violentCrimeRate": 291.9,
+    "costOfLivingIndex": 125.2,
     "population": 4237256,
     "personalIncomeTax": [
       {
@@ -1362,6 +1436,8 @@
   {
     "id": "PA",
     "name": "Pennsylvania",
+    "violentCrimeRate": 389.5,
+    "costOfLivingIndex": 97.5,
     "population": 13002700,
     "personalIncomeTax": [
       {
@@ -1381,6 +1457,8 @@
   {
     "id": "RI",
     "name": "Rhode Island",
+    "violentCrimeRate": 230.8,
+    "costOfLivingIndex": 112.8,
     "population": 1097379,
     "personalIncomeTax": [
       {
@@ -1408,6 +1486,8 @@
   {
     "id": "SC",
     "name": "South Carolina",
+    "violentCrimeRate": 530.7,
+    "costOfLivingIndex": 93.9,
     "population": 5118425,
     "personalIncomeTax": [
       {
@@ -1447,6 +1527,8 @@
   {
     "id": "SD",
     "name": "South Dakota",
+    "violentCrimeRate": 501.4,
+    "costOfLivingIndex": 95.2,
     "population": 886667,
     "personalIncomeTax": [
       {
@@ -1466,6 +1548,8 @@
   {
     "id": "TN",
     "name": "Tennessee",
+    "violentCrimeRate": 672.7,
+    "costOfLivingIndex": 89.4,
     "population": 6910840,
     "personalIncomeTax": [
       {
@@ -1485,6 +1569,8 @@
   {
     "id": "TX",
     "name": "Texas",
+    "violentCrimeRate": 446.5,
+    "costOfLivingIndex": 92.1,
     "population": 29145505,
     "personalIncomeTax": [
       {
@@ -1504,6 +1590,8 @@
   {
     "id": "UT",
     "name": "Utah",
+    "violentCrimeRate": 260.7,
+    "costOfLivingIndex": 104.2,
     "population": 3271616,
     "personalIncomeTax": [
       {
@@ -1523,6 +1611,8 @@
   {
     "id": "VT",
     "name": "Vermont",
+    "violentCrimeRate": 173.4,
+    "costOfLivingIndex": 116.9,
     "population": 643077,
     "personalIncomeTax": [
       {
@@ -1562,6 +1652,8 @@
   {
     "id": "VA",
     "name": "Virginia",
+    "violentCrimeRate": 208.0,
+    "costOfLivingIndex": 102.7,
     "population": 8631393,
     "personalIncomeTax": [
       {
@@ -1593,6 +1685,8 @@
   {
     "id": "WA",
     "name": "Washington",
+    "violentCrimeRate": 293.7,
+    "costOfLivingIndex": 113.9,
     "population": 7705281,
     "personalIncomeTax": [
       {
@@ -1612,6 +1706,8 @@
   {
     "id": "WV",
     "name": "West Virginia",
+    "violentCrimeRate": 355.9,
+    "costOfLivingIndex": 90.5,
     "population": 1793716,
     "personalIncomeTax": [
       {
@@ -1647,6 +1743,8 @@
   {
     "id": "WI",
     "name": "Wisconsin",
+    "violentCrimeRate": 323.4,
+    "costOfLivingIndex": 95.5,
     "population": 5893718,
     "personalIncomeTax": [
       {
@@ -1678,6 +1776,8 @@
   {
     "id": "WY",
     "name": "Wyoming",
+    "violentCrimeRate": 234.2,
+    "costOfLivingIndex": 93.9,
     "population": 576851,
     "personalIncomeTax": [
       {
