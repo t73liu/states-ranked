@@ -4,6 +4,8 @@
     "name": "Alabama",
     "violentCrimeRate": 453.6,
     "costOfLivingIndex": 87.5,
+    "perCapitaIncome": 48540,
+    "medianHousePrice": 138975,
     "population": 5024279,
     "personalIncomeTaxBrackets": [
       {
@@ -33,6 +35,8 @@
     "name": "Alaska",
     "violentCrimeRate": 837.8,
     "costOfLivingIndex": 127.3,
+    "perCapitaIncome": 67742,
+    "medianHousePrice": 300889,
     "population": 733391,
     "personalIncomeTaxBrackets": [
       {
@@ -90,6 +94,8 @@
     "name": "Arizona",
     "violentCrimeRate": 654.8,
     "costOfLivingIndex": 106.7,
+    "perCapitaIncome": 54422,
+    "medianHousePrice": 268765,
     "population": 7151502,
     "personalIncomeTaxBrackets": [
       {
@@ -123,6 +129,8 @@
     "name": "Arkansas",
     "violentCrimeRate": 671.9,
     "costOfLivingIndex": 89.9,
+    "perCapitaIncome": 50943,
+    "medianHousePrice": 128101,
     "population": 3011524,
     "highIncomeTax": {
       "minimumIncome": 84500,
@@ -197,6 +205,8 @@
     "name": "California",
     "violentCrimeRate": 442.0,
     "costOfLivingIndex": 139.7,
+    "perCapitaIncome": 77211,
+    "medianHousePrice": 554886,
     "population": 39538223,
     "personalIncomeTaxBrackets": [
       {
@@ -254,6 +264,8 @@
     "name": "Colorado",
     "violentCrimeRate": 423.1,
     "costOfLivingIndex": 102.4,
+    "perCapitaIncome": 70764,
+    "medianHousePrice": 397820,
     "population": 5773714,
     "personalIncomeTaxBrackets": [
       {
@@ -275,6 +287,8 @@
     "name": "Connecticut",
     "violentCrimeRate": 181.6,
     "costOfLivingIndex": 118.9,
+    "perCapitaIncome": 82918,
+    "medianHousePrice": 255555,
     "population": 3605944,
     "personalIncomeTaxBrackets": [
       {
@@ -320,6 +334,8 @@
     "name": "Delaware",
     "violentCrimeRate": 431.9,
     "costOfLivingIndex": 105.8,
+    "perCapitaIncome": 59998,
+    "medianHousePrice": 254108,
     "population": 989948,
     "personalIncomeTaxBrackets": [
       {
@@ -365,6 +381,8 @@
     "name": "Florida",
     "violentCrimeRate": 383.6,
     "costOfLivingIndex": 102.6,
+    "perCapitaIncome": 61529,
+    "medianHousePrice": 245169,
     "population": 21538187,
     "personalIncomeTaxBrackets": [
       {
@@ -386,6 +404,8 @@
     "name": "Georgia",
     "violentCrimeRate": 400.1,
     "costOfLivingIndex": 88.2,
+    "perCapitaIncome": 55366,
+    "medianHousePrice": 201294,
     "population": 10711908,
     "personalIncomeTaxBrackets": [
       {
@@ -427,6 +447,8 @@
     "name": "Hawaii",
     "violentCrimeRate": 254.2,
     "costOfLivingIndex": 192.7,
+    "perCapitaIncome": 58967,
+    "medianHousePrice": 636451,
     "population": 1455271,
     "personalIncomeTaxBrackets": [
       {
@@ -500,6 +522,8 @@
     "name": "Idaho",
     "violentCrimeRate": 242.6,
     "costOfLivingIndex": 99.4,
+    "perCapitaIncome": 52021,
+    "medianHousePrice": 285982,
     "population": 1839106,
     "personalIncomeTaxBrackets": [
       {
@@ -533,6 +557,8 @@
     "name": "Illinois",
     "violentCrimeRate": 425.9,
     "costOfLivingIndex": 91.7,
+    "perCapitaIncome": 67767,
+    "medianHousePrice": 202675,
     "population": 12812508,
     "personalIncomeTaxBrackets": [
       {
@@ -554,6 +580,8 @@
     "name": "Indiana",
     "violentCrimeRate": 357.7,
     "costOfLivingIndex": 89.2,
+    "perCapitaIncome": 56644,
+    "medianHousePrice": 155640,
     "population": 6785528,
     "personalIncomeTaxBrackets": [
       {
@@ -575,6 +603,8 @@
     "name": "Iowa",
     "violentCrimeRate": 303.5,
     "costOfLivingIndex": 88.1,
+    "perCapitaIncome": 57012,
+    "medianHousePrice": 152885,
     "population": 3190369,
     "personalIncomeTaxBrackets": [
       {
@@ -636,6 +666,8 @@
     "name": "Kansas",
     "violentCrimeRate": 425.0,
     "costOfLivingIndex": 85.4,
+    "perCapitaIncome": 59660,
+    "medianHousePrice": 150657,
     "population": 2937880,
     "personalIncomeTaxBrackets": [
       {
@@ -669,6 +701,8 @@
     "name": "Kentucky",
     "violentCrimeRate": 259.1,
     "costOfLivingIndex": 93.6,
+    "perCapitaIncome": 50713,
+    "medianHousePrice": 146871,
     "population": 4505836,
     "personalIncomeTaxBrackets": [
       {
@@ -690,6 +724,8 @@
     "name": "Louisiana",
     "violentCrimeRate": 639.4,
     "costOfLivingIndex": 93.3,
+    "perCapitaIncome": 54074,
+    "medianHousePrice": 166565,
     "population": 4657757,
     "personalIncomeTaxBrackets": [
       {
@@ -727,6 +763,8 @@
     "name": "Maine",
     "violentCrimeRate": 108.6,
     "costOfLivingIndex": 115.1,
+    "perCapitaIncome": 57319,
+    "medianHousePrice": 242316,
     "population": 1362359,
     "personalIncomeTaxBrackets": [
       {
@@ -768,6 +806,8 @@
     "name": "Maryland",
     "violentCrimeRate": 399.9,
     "costOfLivingIndex": 126.4,
+    "perCapitaIncome": 69694,
+    "medianHousePrice": 308041,
     "population": 6177224,
     "personalIncomeTaxBrackets": [
       {
@@ -817,6 +857,8 @@
     "name": "Massachusetts",
     "violentCrimeRate": 308.8,
     "costOfLivingIndex": 130.2,
+    "perCapitaIncome": 83229,
+    "medianHousePrice": 422856,
     "population": 7029917,
     "personalIncomeTaxBrackets": [
       {
@@ -838,6 +880,8 @@
     "name": "Michigan",
     "violentCrimeRate": 478.0,
     "costOfLivingIndex": 89.9,
+    "perCapitaIncome": 54684,
+    "medianHousePrice": 173277,
     "population": 10077331,
     "personalIncomeTaxBrackets": [
       {
@@ -859,6 +903,8 @@
     "name": "Minnesota",
     "violentCrimeRate": 277.5,
     "costOfLivingIndex": 97.2,
+    "perCapitaIncome": 65579,
+    "medianHousePrice": 256857,
     "population": 5706494,
     "personalIncomeTaxBrackets": [
       {
@@ -892,6 +938,8 @@
     "name": "Mississippi",
     "violentCrimeRate": 291.2,
     "costOfLivingIndex": 83.1,
+    "perCapitaIncome": 44796,
+    "medianHousePrice": 126502,
     "population": 2961279,
     "personalIncomeTaxBrackets": [
       {
@@ -925,6 +973,8 @@
     "name": "Missouri",
     "violentCrimeRate": 542.7,
     "costOfLivingIndex": 90.5,
+    "perCapitaIncome": 55141,
+    "medianHousePrice": 162464,
     "population": 6154913,
     "personalIncomeTaxBrackets": [
       {
@@ -982,6 +1032,8 @@
     "name": "Montana",
     "violentCrimeRate": 469.8,
     "costOfLivingIndex": 104.4,
+    "perCapitaIncome": 56936,
+    "medianHousePrice": 277801,
     "population": 1084225,
     "personalIncomeTaxBrackets": [
       {
@@ -1027,6 +1079,8 @@
     "name": "Nebraska",
     "violentCrimeRate": 334.1,
     "costOfLivingIndex": 91.8,
+    "perCapitaIncome": 62776,
+    "medianHousePrice": 175884,
     "population": 1961504,
     "personalIncomeTaxBrackets": [
       {
@@ -1064,6 +1118,8 @@
     "name": "Nevada",
     "violentCrimeRate": 460.3,
     "costOfLivingIndex": 103.1,
+    "perCapitaIncome": 58451,
+    "medianHousePrice": 301753,
     "population": 3104614,
     "personalIncomeTaxBrackets": [
       {
@@ -1085,6 +1141,8 @@
     "name": "New Hampshire",
     "violentCrimeRate": 146.4,
     "costOfLivingIndex": 117.4,
+    "perCapitaIncome": 74229,
+    "medianHousePrice": 290163,
     "population": 1377529,
     "personalIncomeTaxBrackets": [
       {
@@ -1106,6 +1164,8 @@
     "name": "New Jersey",
     "violentCrimeRate": 195.4,
     "costOfLivingIndex": 112.9,
+    "perCapitaIncome": 75086,
+    "medianHousePrice": 335607,
     "population": 9288994,
     "personalIncomeTaxBrackets": [
       {
@@ -1163,6 +1223,8 @@
     "name": "New Mexico",
     "violentCrimeRate": 778.3,
     "costOfLivingIndex": 93.9,
+    "perCapitaIncome": 49396,
+    "medianHousePrice": 203675,
     "population": 2117522,
     "personalIncomeTaxBrackets": [
       {
@@ -1204,6 +1266,8 @@
     "name": "New York",
     "violentCrimeRate": 363.8,
     "costOfLivingIndex": 152.1,
+    "perCapitaIncome": 77029,
+    "medianHousePrice": 321934,
     "population": 20201249,
     "personalIncomeTaxBrackets": [
       {
@@ -1261,6 +1325,8 @@
     "name": "North Carolina",
     "violentCrimeRate": 419.3,
     "costOfLivingIndex": 95.0,
+    "perCapitaIncome": 55654,
+    "medianHousePrice": 202215,
     "population": 10439388,
     "personalIncomeTaxBrackets": [
       {
@@ -1282,6 +1348,8 @@
     "name": "North Dakota",
     "violentCrimeRate": 329.0,
     "costOfLivingIndex": 96.8,
+    "perCapitaIncome": 65324,
+    "medianHousePrice": 235012,
     "population": 779094,
     "personalIncomeTaxBrackets": [
       {
@@ -1327,6 +1395,8 @@
     "name": "Ohio",
     "violentCrimeRate": 308.8,
     "costOfLivingIndex": 90.8,
+    "perCapitaIncome": 56548,
+    "medianHousePrice": 150374,
     "population": 11799448,
     "personalIncomeTaxBrackets": [
       {
@@ -1360,6 +1430,8 @@
     "name": "Oklahoma",
     "violentCrimeRate": 458.6,
     "costOfLivingIndex": 84.8,
+    "perCapitaIncome": 53579,
+    "medianHousePrice": 128934,
     "population": 3959353,
     "personalIncomeTaxBrackets": [
       {
@@ -1401,6 +1473,8 @@
     "name": "Oregon",
     "violentCrimeRate": 291.9,
     "costOfLivingIndex": 125.2,
+    "perCapitaIncome": 60990,
+    "medianHousePrice": 361970,
     "population": 4237256,
     "personalIncomeTaxBrackets": [
       {
@@ -1438,6 +1512,8 @@
     "name": "Pennsylvania",
     "violentCrimeRate": 389.5,
     "costOfLivingIndex": 97.5,
+    "perCapitaIncome": 64370,
+    "medianHousePrice": 194603,
     "population": 13002700,
     "personalIncomeTaxBrackets": [
       {
@@ -1459,6 +1535,8 @@
     "name": "Rhode Island",
     "violentCrimeRate": 230.8,
     "costOfLivingIndex": 112.8,
+    "perCapitaIncome": 61726,
+    "medianHousePrice": 300808,
     "population": 1097379,
     "personalIncomeTaxBrackets": [
       {
@@ -1488,6 +1566,8 @@
     "name": "South Carolina",
     "violentCrimeRate": 530.7,
     "costOfLivingIndex": 93.9,
+    "perCapitaIncome": 52047,
+    "medianHousePrice": 185749,
     "population": 5118425,
     "personalIncomeTaxBrackets": [
       {
@@ -1529,6 +1609,8 @@
     "name": "South Dakota",
     "violentCrimeRate": 501.4,
     "costOfLivingIndex": 95.2,
+    "perCapitaIncome": 65647,
+    "medianHousePrice": 205567,
     "population": 886667,
     "personalIncomeTaxBrackets": [
       {
@@ -1550,6 +1632,8 @@
     "name": "Tennessee",
     "violentCrimeRate": 672.7,
     "costOfLivingIndex": 89.4,
+    "perCapitaIncome": 55315,
+    "medianHousePrice": 185922,
     "population": 6910840,
     "personalIncomeTaxBrackets": [
       {
@@ -1571,6 +1655,8 @@
     "name": "Texas",
     "violentCrimeRate": 446.5,
     "costOfLivingIndex": 92.1,
+    "perCapitaIncome": 60427,
+    "medianHousePrice": 207301,
     "population": 29145505,
     "personalIncomeTaxBrackets": [
       {
@@ -1592,6 +1678,8 @@
     "name": "Utah",
     "violentCrimeRate": 260.7,
     "costOfLivingIndex": 104.2,
+    "perCapitaIncome": 56268,
+    "medianHousePrice": 348376,
     "population": 3271616,
     "personalIncomeTaxBrackets": [
       {
@@ -1613,6 +1701,8 @@
     "name": "Vermont",
     "violentCrimeRate": 173.4,
     "costOfLivingIndex": 116.9,
+    "perCapitaIncome": 59652,
+    "medianHousePrice": 254234,
     "population": 643077,
     "personalIncomeTaxBrackets": [
       {
@@ -1654,6 +1744,8 @@
     "name": "Virginia",
     "violentCrimeRate": 208.0,
     "costOfLivingIndex": 102.7,
+    "perCapitaIncome": 66396,
+    "medianHousePrice": 285229,
     "population": 8631393,
     "personalIncomeTaxBrackets": [
       {
@@ -1687,6 +1779,8 @@
     "name": "Washington",
     "violentCrimeRate": 293.7,
     "costOfLivingIndex": 113.9,
+    "perCapitaIncome": 72163,
+    "medianHousePrice": 409228,
     "population": 7705281,
     "personalIncomeTaxBrackets": [
       {
@@ -1708,6 +1802,8 @@
     "name": "West Virginia",
     "violentCrimeRate": 355.9,
     "costOfLivingIndex": 90.5,
+    "perCapitaIncome": 48192,
+    "medianHousePrice": 108236,
     "population": 1793716,
     "personalIncomeTaxBrackets": [
       {
@@ -1745,6 +1841,8 @@
     "name": "Wisconsin",
     "violentCrimeRate": 323.4,
     "costOfLivingIndex": 95.5,
+    "perCapitaIncome": 59064,
+    "medianHousePrice": 202029,
     "population": 5893718,
     "personalIncomeTaxBrackets": [
       {
@@ -1778,6 +1876,8 @@
     "name": "Wyoming",
     "violentCrimeRate": 234.2,
     "costOfLivingIndex": 93.9,
+    "perCapitaIncome": 66337,
+    "medianHousePrice": 250890,
     "population": 576851,
     "personalIncomeTaxBrackets": [
       {

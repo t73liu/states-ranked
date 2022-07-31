@@ -12,3 +12,7 @@ by Astro and Svelte.
    - [pnpm](https://pnpm.io/)
 3. Run `npm/yarn/pnpm install`
 4. Run `npm/yarn/pnpm run start`
+
+## Ideas
+
+- Include climate change risk (https://projects.propublica.org/climate-migration/)
