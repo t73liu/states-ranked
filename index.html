@@ -1,69 +1,582 @@
 <!DOCTYPE html>
-<!DOCTYPE html><html lang="en" class="astro-M5RZZS76">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width">
-		<link rel="icon" type="image/png" href="/states-ranked/favicon-32x32.png">
-		<title>Welcome to Astro.</title>
-	<link rel="stylesheet" href="/states-ranked/assets/72bb9913.a60d08e8.css" /></head>
-	<body class="astro-M5RZZS76">
-		<main class="astro-R4WXVV5P">
-		<h1 class="astro-R4WXVV5P">Welcome to <span class="text-gradient astro-R4WXVV5P">Astro</span></h1>
-		<p class="instructions astro-R4WXVV5P">
-			Check out the <code class="astro-R4WXVV5P">src/pages</code> directory to get started.<br class="astro-R4WXVV5P">
-			<strong class="astro-R4WXVV5P">Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-		<ul role="list" class="link-card-grid astro-R4WXVV5P">
-			<li class="link-card astro-DYDDWWYO">
-	<a href="https://docs.astro.build/" class="astro-DYDDWWYO">
-		<h2 class="astro-DYDDWWYO">
-			Documentation
-			<span class="astro-DYDDWWYO">&rarr;</span>
-		</h2>
-		<p class="astro-DYDDWWYO">
-			Learn how Astro works and explore the official API docs.
-		</p>
-	</a>
-</li>
-
-			<li class="link-card astro-DYDDWWYO">
-	<a href="https://astro.build/integrations/" class="astro-DYDDWWYO">
-		<h2 class="astro-DYDDWWYO">
-			Integrations
-			<span class="astro-DYDDWWYO">&rarr;</span>
-		</h2>
-		<p class="astro-DYDDWWYO">
-			Supercharge your project with new frameworks and libraries.
-		</p>
-	</a>
-</li>
-
-			<li class="link-card astro-DYDDWWYO">
-	<a href="https://astro.build/themes/" class="astro-DYDDWWYO">
-		<h2 class="astro-DYDDWWYO">
-			Themes
-			<span class="astro-DYDDWWYO">&rarr;</span>
-		</h2>
-		<p class="astro-DYDDWWYO">
-			Explore a galaxy of community-built starter themes.
-		</p>
-	</a>
-</li>
-
-			<li class="link-card astro-DYDDWWYO">
-	<a href="https://astro.build/chat/" class="astro-DYDDWWYO">
-		<h2 class="astro-DYDDWWYO">
-			Chat
-			<span class="astro-DYDDWWYO">&rarr;</span>
-		</h2>
-		<p class="astro-DYDDWWYO">
-			Come say hi to our amazing Discord community. ❤️
-		</p>
-	</a>
-</li>
-
-		</ul>
-	</main>
-	
-</body></html>
-
+<html lang="en"><head><meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="icon" type="image/png" href="/states-ranked/favicon-32x32.png">
+  <title>States Ranked</title></head>
+<body class="bg-slate-900 text-gray-100"><main><div class="mx-auto max-w-screen-lg px-3 py-6"><div class="flex flex-col gap-y-3 sm:flex-row sm:items-center sm:justify-between"><div class="flex items-center bg-gradient-to-br from-sky-500 to-cyan-400 bg-clip-text text-4xl font-bold text-transparent">States Ranked
+        </div></div></div>
+    <div class="mx-auto max-w-screen-lg px-3 py-6"><style>astro-island,astro-slot{display:contents}</style><script>(self.Astro=self.Astro||{}).load=a=>{(async()=>await(await a())())()};var a;{const l={0:t=>t,1:t=>JSON.parse(t,n),2:t=>new RegExp(t),3:t=>new Date(t),4:t=>new Map(JSON.parse(t,n)),5:t=>new Set(JSON.parse(t,n)),6:t=>BigInt(t),7:t=>new URL(t)},n=(t,r)=>{if(t===""||!Array.isArray(r))return r;const[e,i]=r;return e in l?l[e](i):void 0};customElements.get("astro-island")||customElements.define("astro-island",(a=class extends HTMLElement{constructor(){super(...arguments);this.hydrate=()=>{if(!this.hydrator||this.parentElement?.closest("astro-island[ssr]"))return;const r=this.querySelectorAll("astro-slot"),e={},i=this.querySelectorAll("template[data-astro-template]");for(const s of i)!s.closest(this.tagName)?.isSameNode(this)||(e[s.getAttribute("data-astro-template")||"default"]=s.innerHTML,s.remove());for(const s of r)!s.closest(this.tagName)?.isSameNode(this)||(e[s.getAttribute("name")||"default"]=s.innerHTML);const o=this.hasAttribute("props")?JSON.parse(this.getAttribute("props"),n):{};this.hydrator(this)(this.Component,o,e,{client:this.getAttribute("client")}),this.removeAttribute("ssr"),window.removeEventListener("astro:hydrate",this.hydrate),window.dispatchEvent(new CustomEvent("astro:hydrate"))}}connectedCallback(){!this.hasAttribute("await-children")||this.firstChild?this.childrenConnectedCallback():new MutationObserver((r,e)=>{e.disconnect(),this.childrenConnectedCallback()}).observe(this,{childList:!0})}async childrenConnectedCallback(){window.addEventListener("astro:hydrate",this.hydrate),await import(this.getAttribute("before-hydration-url"));const r=JSON.parse(this.getAttribute("opts"));Astro[this.getAttribute("client")](async()=>{const e=this.getAttribute("renderer-url"),[i,{default:o}]=await Promise.all([import(this.getAttribute("component-url")),e?import(e):()=>()=>{}]);return this.Component=i[this.getAttribute("component-export")||"default"],this.hydrator=o,this.hydrate},r,this)}attributeChangedCallback(){this.hydrator&&this.hydrate()}},a.observedAttributes=["props"],a))}</script><astro-island uid="Z2a1j4c" component-url="/StatesTable.6c2adbe1.js" component-export="default" renderer-url="/client.2e9d5dfc.js" props="{}" ssr="" client="load" before-hydration-url="data:text/javascript;charset=utf-8,//[no before-hydration script]" opts="{&quot;name&quot;:&quot;StatesTable&quot;,&quot;value&quot;:true}" await-children=""><div class="overflow-x-auto relative shadow-md sm:rounded-lg"><div><label for="income" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Personal Income
+    </label>
+    <input type="number" id="income" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="100000" value="100000" required></div>
+  <div><label for="corporate" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Corporate Income
+    </label>
+    <input type="number" id="corporate" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="100000" value="100000" required></div>
+  <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400 mt-4"><thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400"><tr><th scope="col" class="p-4"><div class="flex items-center"><input id="checkbox-all-search" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+          <label for="checkbox-all-search" class="sr-only">checkbox</label></div></th>
+      <th scope="col" class="cursor-pointer py-3 px-6">State
+      </th>
+      <th scope="col" class="cursor-pointer py-3 px-6">Population
+      </th>
+      <th scope="col" class="cursor-pointer py-3 px-6">Income Tax
+      </th>
+      <th scope="col" class="cursor-pointer py-3 px-6">Real Estate Tax
+      </th>
+      <th scope="col" class="cursor-pointer py-3 px-6">Sales Tax
+      </th>
+      <th scope="col" class="cursor-pointer py-3 px-6">Corporate Tax
+      </th>
+      <th scope="col" class="cursor-pointer py-3 px-6">Cost of Living Index
+      </th>
+      <th scope="col" class="cursor-pointer py-3 px-6">Violent Crime Rate
+      </th></tr></thead>
+    <tbody><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Alabama</th>
+          <td class="py-4 px-6">5,024,279</td>
+          <td class="py-4 px-6">4.96%</td>
+          <td class="py-4 px-6">0.41%</td>
+          <td class="py-4 px-6">4%</td>
+          <td class="py-4 px-6">6.5%</td>
+          <td class="py-4 px-6">87.5</td>
+          <td class="py-4 px-6">453.6</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Alaska</th>
+          <td class="py-4 px-6">733,391</td>
+          <td class="py-4 px-6">0%</td>
+          <td class="py-4 px-6">1.19%</td>
+          <td class="py-4 px-6">0%</td>
+          <td class="py-4 px-6">2.28%</td>
+          <td class="py-4 px-6">127.3</td>
+          <td class="py-4 px-6">837.8</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Arizona</th>
+          <td class="py-4 px-6">7,151,502</td>
+          <td class="py-4 px-6">3.5%</td>
+          <td class="py-4 px-6">0.66%</td>
+          <td class="py-4 px-6">5.6%</td>
+          <td class="py-4 px-6">4.9%</td>
+          <td class="py-4 px-6">106.7</td>
+          <td class="py-4 px-6">654.8</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Arkansas</th>
+          <td class="py-4 px-6">3,011,524</td>
+          <td class="py-4 px-6">4.667%</td>
+          <td class="py-4 px-6">0.62%</td>
+          <td class="py-4 px-6">6.5%</td>
+          <td class="py-4 px-6">5.365%</td>
+          <td class="py-4 px-6">89.9</td>
+          <td class="py-4 px-6">671.9</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">California</th>
+          <td class="py-4 px-6">39,538,223</td>
+          <td class="py-4 px-6">6.302%</td>
+          <td class="py-4 px-6">0.76%</td>
+          <td class="py-4 px-6">7.25%</td>
+          <td class="py-4 px-6">8.84%</td>
+          <td class="py-4 px-6">139.7</td>
+          <td class="py-4 px-6">442</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Colorado</th>
+          <td class="py-4 px-6">5,773,714</td>
+          <td class="py-4 px-6">4.55%</td>
+          <td class="py-4 px-6">0.51%</td>
+          <td class="py-4 px-6">2.9%</td>
+          <td class="py-4 px-6">4.55%</td>
+          <td class="py-4 px-6">102.4</td>
+          <td class="py-4 px-6">423.1</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Connecticut</th>
+          <td class="py-4 px-6">3,605,944</td>
+          <td class="py-4 px-6">5.05%</td>
+          <td class="py-4 px-6">2.14%</td>
+          <td class="py-4 px-6">6.35%</td>
+          <td class="py-4 px-6">7.5%</td>
+          <td class="py-4 px-6">118.9</td>
+          <td class="py-4 px-6">181.6</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Delaware</th>
+          <td class="py-4 px-6">989,948</td>
+          <td class="py-4 px-6">5.584%</td>
+          <td class="py-4 px-6">0.57%</td>
+          <td class="py-4 px-6">0%</td>
+          <td class="py-4 px-6">8.7%</td>
+          <td class="py-4 px-6">105.8</td>
+          <td class="py-4 px-6">431.9</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Florida</th>
+          <td class="py-4 px-6">21,538,187</td>
+          <td class="py-4 px-6">0%</td>
+          <td class="py-4 px-6">0.89%</td>
+          <td class="py-4 px-6">6%</td>
+          <td class="py-4 px-6">5.5%</td>
+          <td class="py-4 px-6">102.6</td>
+          <td class="py-4 px-6">383.6</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Georgia</th>
+          <td class="py-4 px-6">10,711,908</td>
+          <td class="py-4 px-6">5.578%</td>
+          <td class="py-4 px-6">0.92%</td>
+          <td class="py-4 px-6">4%</td>
+          <td class="py-4 px-6">5.75%</td>
+          <td class="py-4 px-6">88.2</td>
+          <td class="py-4 px-6">400.1</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Hawaii</th>
+          <td class="py-4 px-6">1,455,271</td>
+          <td class="py-4 px-6">7.504%</td>
+          <td class="py-4 px-6">0.28%</td>
+          <td class="py-4 px-6">4%</td>
+          <td class="py-4 px-6">5.15%</td>
+          <td class="py-4 px-6">192.7</td>
+          <td class="py-4 px-6">254.2</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Idaho</th>
+          <td class="py-4 px-6">1,839,106</td>
+          <td class="py-4 px-6">5.778%</td>
+          <td class="py-4 px-6">0.69%</td>
+          <td class="py-4 px-6">6%</td>
+          <td class="py-4 px-6">6%</td>
+          <td class="py-4 px-6">99.4</td>
+          <td class="py-4 px-6">242.6</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Illinois</th>
+          <td class="py-4 px-6">12,812,508</td>
+          <td class="py-4 px-6">4.95%</td>
+          <td class="py-4 px-6">2.27%</td>
+          <td class="py-4 px-6">6.25%</td>
+          <td class="py-4 px-6">9.5%</td>
+          <td class="py-4 px-6">91.7</td>
+          <td class="py-4 px-6">425.9</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Indiana</th>
+          <td class="py-4 px-6">6,785,528</td>
+          <td class="py-4 px-6">3.23%</td>
+          <td class="py-4 px-6">0.85%</td>
+          <td class="py-4 px-6">7%</td>
+          <td class="py-4 px-6">4.9%</td>
+          <td class="py-4 px-6">89.2</td>
+          <td class="py-4 px-6">357.7</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Iowa</th>
+          <td class="py-4 px-6">3,190,369</td>
+          <td class="py-4 px-6">6.439%</td>
+          <td class="py-4 px-6">1.57%</td>
+          <td class="py-4 px-6">6%</td>
+          <td class="py-4 px-6">5.5%</td>
+          <td class="py-4 px-6">88.1</td>
+          <td class="py-4 px-6">303.5</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Kansas</th>
+          <td class="py-4 px-6">2,937,880</td>
+          <td class="py-4 px-6">5.243%</td>
+          <td class="py-4 px-6">1.41%</td>
+          <td class="py-4 px-6">6.5%</td>
+          <td class="py-4 px-6">5.5%</td>
+          <td class="py-4 px-6">85.4</td>
+          <td class="py-4 px-6">425</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Kentucky</th>
+          <td class="py-4 px-6">4,505,836</td>
+          <td class="py-4 px-6">5%</td>
+          <td class="py-4 px-6">0.86%</td>
+          <td class="py-4 px-6">6%</td>
+          <td class="py-4 px-6">5%</td>
+          <td class="py-4 px-6">93.6</td>
+          <td class="py-4 px-6">259.1</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Louisiana</th>
+          <td class="py-4 px-6">4,657,757</td>
+          <td class="py-4 px-6">3.669%</td>
+          <td class="py-4 px-6">0.55%</td>
+          <td class="py-4 px-6">4.45%</td>
+          <td class="py-4 px-6">4.5%</td>
+          <td class="py-4 px-6">93.3</td>
+          <td class="py-4 px-6">639.4</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Maine</th>
+          <td class="py-4 px-6">1,362,359</td>
+          <td class="py-4 px-6">6.714%</td>
+          <td class="py-4 px-6">1.36%</td>
+          <td class="py-4 px-6">5.5%</td>
+          <td class="py-4 px-6">3.5%</td>
+          <td class="py-4 px-6">115.1</td>
+          <td class="py-4 px-6">108.6</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Maryland</th>
+          <td class="py-4 px-6">6,177,224</td>
+          <td class="py-4 px-6">4.698%</td>
+          <td class="py-4 px-6">1.09%</td>
+          <td class="py-4 px-6">6%</td>
+          <td class="py-4 px-6">8.25%</td>
+          <td class="py-4 px-6">126.4</td>
+          <td class="py-4 px-6">399.9</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Massachusetts</th>
+          <td class="py-4 px-6">7,029,917</td>
+          <td class="py-4 px-6">5%</td>
+          <td class="py-4 px-6">1.23%</td>
+          <td class="py-4 px-6">6.25%</td>
+          <td class="py-4 px-6">8%</td>
+          <td class="py-4 px-6">130.2</td>
+          <td class="py-4 px-6">308.8</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Michigan</th>
+          <td class="py-4 px-6">10,077,331</td>
+          <td class="py-4 px-6">4.25%</td>
+          <td class="py-4 px-6">1.54%</td>
+          <td class="py-4 px-6">6%</td>
+          <td class="py-4 px-6">6%</td>
+          <td class="py-4 px-6">89.9</td>
+          <td class="py-4 px-6">478</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Minnesota</th>
+          <td class="py-4 px-6">5,706,494</td>
+          <td class="py-4 px-6">6.474%</td>
+          <td class="py-4 px-6">1.12%</td>
+          <td class="py-4 px-6">6.875%</td>
+          <td class="py-4 px-6">9.8%</td>
+          <td class="py-4 px-6">97.2</td>
+          <td class="py-4 px-6">277.5</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Mississippi</th>
+          <td class="py-4 px-6">2,961,279</td>
+          <td class="py-4 px-6">4.7%</td>
+          <td class="py-4 px-6">0.81%</td>
+          <td class="py-4 px-6">7%</td>
+          <td class="py-4 px-6">4.7%</td>
+          <td class="py-4 px-6">83.1</td>
+          <td class="py-4 px-6">291.2</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Missouri</th>
+          <td class="py-4 px-6">6,154,913</td>
+          <td class="py-4 px-6">5.211%</td>
+          <td class="py-4 px-6">0.97%</td>
+          <td class="py-4 px-6">4.225%</td>
+          <td class="py-4 px-6">4%</td>
+          <td class="py-4 px-6">90.5</td>
+          <td class="py-4 px-6">542.7</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Montana</th>
+          <td class="py-4 px-6">1,084,225</td>
+          <td class="py-4 px-6">6.179%</td>
+          <td class="py-4 px-6">0.84%</td>
+          <td class="py-4 px-6">0%</td>
+          <td class="py-4 px-6">6.75%</td>
+          <td class="py-4 px-6">104.4</td>
+          <td class="py-4 px-6">469.8</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Nebraska</th>
+          <td class="py-4 px-6">1,961,504</td>
+          <td class="py-4 px-6">5.888%</td>
+          <td class="py-4 px-6">1.73%</td>
+          <td class="py-4 px-6">5.5%</td>
+          <td class="py-4 px-6">5.58%</td>
+          <td class="py-4 px-6">91.8</td>
+          <td class="py-4 px-6">334.1</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Nevada</th>
+          <td class="py-4 px-6">3,104,614</td>
+          <td class="py-4 px-6">0%</td>
+          <td class="py-4 px-6">0.6%</td>
+          <td class="py-4 px-6">6.85%</td>
+          <td class="py-4 px-6">0%</td>
+          <td class="py-4 px-6">103.1</td>
+          <td class="py-4 px-6">460.3</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">New Hampshire</th>
+          <td class="py-4 px-6">1,377,529</td>
+          <td class="py-4 px-6">0%</td>
+          <td class="py-4 px-6">2.18%</td>
+          <td class="py-4 px-6">0%</td>
+          <td class="py-4 px-6">7.6%</td>
+          <td class="py-4 px-6">117.4</td>
+          <td class="py-4 px-6">146.4</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">New Jersey</th>
+          <td class="py-4 px-6">9,288,994</td>
+          <td class="py-4 px-6">4.244%</td>
+          <td class="py-4 px-6">2.49%</td>
+          <td class="py-4 px-6">6.625%</td>
+          <td class="py-4 px-6">7.45%</td>
+          <td class="py-4 px-6">112.9</td>
+          <td class="py-4 px-6">195.4</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">New Mexico</th>
+          <td class="py-4 px-6">2,117,522</td>
+          <td class="py-4 px-6">4.621%</td>
+          <td class="py-4 px-6">0.8%</td>
+          <td class="py-4 px-6">5%</td>
+          <td class="py-4 px-6">4.8%</td>
+          <td class="py-4 px-6">93.9</td>
+          <td class="py-4 px-6">778.3</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">New York</th>
+          <td class="py-4 px-6">20,201,249</td>
+          <td class="py-4 px-6">5.714%</td>
+          <td class="py-4 px-6">1.72%</td>
+          <td class="py-4 px-6">4%</td>
+          <td class="py-4 px-6">6.5%</td>
+          <td class="py-4 px-6">152.1</td>
+          <td class="py-4 px-6">363.8</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">North Carolina</th>
+          <td class="py-4 px-6">10,439,388</td>
+          <td class="py-4 px-6">4.99%</td>
+          <td class="py-4 px-6">0.84%</td>
+          <td class="py-4 px-6">4.75%</td>
+          <td class="py-4 px-6">2.5%</td>
+          <td class="py-4 px-6">95</td>
+          <td class="py-4 px-6">419.3</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">North Dakota</th>
+          <td class="py-4 px-6">779,094</td>
+          <td class="py-4 px-6">1.663%</td>
+          <td class="py-4 px-6">0.98%</td>
+          <td class="py-4 px-6">5%</td>
+          <td class="py-4 px-6">3.395%</td>
+          <td class="py-4 px-6">96.8</td>
+          <td class="py-4 px-6">329</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Ohio</th>
+          <td class="py-4 px-6">11,799,448</td>
+          <td class="py-4 px-6">2.384%</td>
+          <td class="py-4 px-6">1.56%</td>
+          <td class="py-4 px-6">5.75%</td>
+          <td class="py-4 px-6">0%</td>
+          <td class="py-4 px-6">90.8</td>
+          <td class="py-4 px-6">308.8</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Oklahoma</th>
+          <td class="py-4 px-6">3,959,353</td>
+          <td class="py-4 px-6">4.562%</td>
+          <td class="py-4 px-6">0.9%</td>
+          <td class="py-4 px-6">4.5%</td>
+          <td class="py-4 px-6">4%</td>
+          <td class="py-4 px-6">84.8</td>
+          <td class="py-4 px-6">458.6</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Oregon</th>
+          <td class="py-4 px-6">4,237,256</td>
+          <td class="py-4 px-6">8.493%</td>
+          <td class="py-4 px-6">0.97%</td>
+          <td class="py-4 px-6">0%</td>
+          <td class="py-4 px-6">6.6%</td>
+          <td class="py-4 px-6">125.2</td>
+          <td class="py-4 px-6">291.9</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Pennsylvania</th>
+          <td class="py-4 px-6">13,002,700</td>
+          <td class="py-4 px-6">3.07%</td>
+          <td class="py-4 px-6">1.58%</td>
+          <td class="py-4 px-6">6%</td>
+          <td class="py-4 px-6">9.99%</td>
+          <td class="py-4 px-6">97.5</td>
+          <td class="py-4 px-6">389.5</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Rhode Island</th>
+          <td class="py-4 px-6">1,097,379</td>
+          <td class="py-4 px-6">4.068%</td>
+          <td class="py-4 px-6">1.63%</td>
+          <td class="py-4 px-6">7%</td>
+          <td class="py-4 px-6">7%</td>
+          <td class="py-4 px-6">112.8</td>
+          <td class="py-4 px-6">230.8</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">South Carolina</th>
+          <td class="py-4 px-6">5,118,425</td>
+          <td class="py-4 px-6">6.455%</td>
+          <td class="py-4 px-6">0.57%</td>
+          <td class="py-4 px-6">6%</td>
+          <td class="py-4 px-6">5%</td>
+          <td class="py-4 px-6">93.9</td>
+          <td class="py-4 px-6">530.7</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">South Dakota</th>
+          <td class="py-4 px-6">886,667</td>
+          <td class="py-4 px-6">0%</td>
+          <td class="py-4 px-6">1.31%</td>
+          <td class="py-4 px-6">4.5%</td>
+          <td class="py-4 px-6">0%</td>
+          <td class="py-4 px-6">95.2</td>
+          <td class="py-4 px-6">501.4</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Tennessee</th>
+          <td class="py-4 px-6">6,910,840</td>
+          <td class="py-4 px-6">0%</td>
+          <td class="py-4 px-6">0.71%</td>
+          <td class="py-4 px-6">7%</td>
+          <td class="py-4 px-6">6.5%</td>
+          <td class="py-4 px-6">89.4</td>
+          <td class="py-4 px-6">672.7</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Texas</th>
+          <td class="py-4 px-6">29,145,505</td>
+          <td class="py-4 px-6">0%</td>
+          <td class="py-4 px-6">1.8%</td>
+          <td class="py-4 px-6">6.25%</td>
+          <td class="py-4 px-6">0%</td>
+          <td class="py-4 px-6">92.1</td>
+          <td class="py-4 px-6">446.5</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Utah</th>
+          <td class="py-4 px-6">3,271,616</td>
+          <td class="py-4 px-6">4.95%</td>
+          <td class="py-4 px-6">0.63%</td>
+          <td class="py-4 px-6">6.1%</td>
+          <td class="py-4 px-6">4.95%</td>
+          <td class="py-4 px-6">104.2</td>
+          <td class="py-4 px-6">260.7</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Vermont</th>
+          <td class="py-4 px-6">643,077</td>
+          <td class="py-4 px-6">5.277%</td>
+          <td class="py-4 px-6">1.9%</td>
+          <td class="py-4 px-6">6%</td>
+          <td class="py-4 px-6">8.025%</td>
+          <td class="py-4 px-6">116.9</td>
+          <td class="py-4 px-6">173.4</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Virginia</th>
+          <td class="py-4 px-6">8,631,393</td>
+          <td class="py-4 px-6">5.493%</td>
+          <td class="py-4 px-6">0.82%</td>
+          <td class="py-4 px-6">5.3%</td>
+          <td class="py-4 px-6">6%</td>
+          <td class="py-4 px-6">102.7</td>
+          <td class="py-4 px-6">208</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Washington</th>
+          <td class="py-4 px-6">7,705,281</td>
+          <td class="py-4 px-6">0%</td>
+          <td class="py-4 px-6">0.98%</td>
+          <td class="py-4 px-6">6.5%</td>
+          <td class="py-4 px-6">0%</td>
+          <td class="py-4 px-6">113.9</td>
+          <td class="py-4 px-6">293.7</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">West Virginia</th>
+          <td class="py-4 px-6">1,793,716</td>
+          <td class="py-4 px-6">5.375%</td>
+          <td class="py-4 px-6">0.58%</td>
+          <td class="py-4 px-6">6%</td>
+          <td class="py-4 px-6">6.5%</td>
+          <td class="py-4 px-6">90.5</td>
+          <td class="py-4 px-6">355.9</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Wisconsin</th>
+          <td class="py-4 px-6">5,893,718</td>
+          <td class="py-4 px-6">4.992%</td>
+          <td class="py-4 px-6">1.85%</td>
+          <td class="py-4 px-6">5%</td>
+          <td class="py-4 px-6">7.9%</td>
+          <td class="py-4 px-6">95.5</td>
+          <td class="py-4 px-6">323.4</td>
+        </tr><tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600"><td class="p-4 w-4"><div class="flex items-center"><input type="checkbox"  class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600">
+              <label class="sr-only">checkbox</label>
+            </div></td>
+          <th scope="row" class="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white">Wyoming</th>
+          <td class="py-4 px-6">576,851</td>
+          <td class="py-4 px-6">0%</td>
+          <td class="py-4 px-6">0.61%</td>
+          <td class="py-4 px-6">4%</td>
+          <td class="py-4 px-6">0%</td>
+          <td class="py-4 px-6">93.9</td>
+          <td class="py-4 px-6">234.2</td>
+        </tr></tbody></table></div></astro-island><link rel="stylesheet" href="/states-ranked/assets/72bb9913.9ff1a079.css" /><div></div></div></main></body></html>
