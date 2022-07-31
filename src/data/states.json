@@ -3,6 +3,26 @@
     "id": "AL",
     "name": "Alabama",
     "population": 5024279,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.02,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.04,
+        "minimumIncome": 500
+      },
+      {
+        "taxRate": 0.05,
+        "minimumIncome": 3000
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.065,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0041,
     "salesTax": 0.04
   },
@@ -10,6 +30,54 @@
     "id": "AK",
     "name": "Alaska",
     "population": 733391,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0,
+        "minimumIncome": 0
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.02,
+        "minimumIncome": 25000
+      },
+      {
+        "taxRate": 0.03,
+        "minimumIncome": 49000
+      },
+      {
+        "taxRate": 0.04,
+        "minimumIncome": 74000
+      },
+      {
+        "taxRate": 0.05,
+        "minimumIncome": 99000
+      },
+      {
+        "taxRate": 0.06,
+        "minimumIncome": 124000
+      },
+      {
+        "taxRate": 0.07,
+        "minimumIncome": 148000
+      },
+      {
+        "taxRate": 0.08,
+        "minimumIncome": 173000
+      },
+      {
+        "taxRate": 0.09,
+        "minimumIncome": 198000
+      },
+      {
+        "taxRate": 0.094,
+        "minimumIncome": 222000
+      }
+    ],
     "realEstateTax": 0.0119,
     "salesTax": 0
   },
@@ -17,6 +85,30 @@
     "id": "AZ",
     "name": "Arizona",
     "population": 7151502,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.0259,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.0334,
+        "minimumIncome": 27808
+      },
+      {
+        "taxRate": 0.0417,
+        "minimumIncome": 55615
+      },
+      {
+        "taxRate": 0.045,
+        "minimumIncome": 166843
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.049,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0066,
     "salesTax": 0.056
   },
@@ -24,6 +116,71 @@
     "id": "AR",
     "name": "Arkansas",
     "population": 3011524,
+    "highIncomeTax": {
+      "minimumIncome": 84500,
+      "personalIncomeTax": [
+        {
+          "taxRate": 0.02,
+          "minimumIncome": 0
+        },
+        {
+          "taxRate": 0.04,
+          "minimumIncome": 4300
+        },
+        {
+          "taxRate": 0.055,
+          "minimumIncome": 8500
+        }
+      ]
+    },
+    "personalIncomeTax": [
+      {
+        "taxRate": 0,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.02,
+        "minimumIncome": 5000
+      },
+      {
+        "taxRate": 0.03,
+        "minimumIncome": 10000
+      },
+      {
+        "taxRate": 0.034,
+        "minimumIncome": 14300
+      },
+      {
+        "taxRate": 0.05,
+        "minimumIncome": 23600
+      },
+      {
+        "taxRate": 0.055,
+        "minimumIncome": 39700
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.01,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.02,
+        "minimumIncome": 3000
+      },
+      {
+        "taxRate": 0.03,
+        "minimumIncome": 6000
+      },
+      {
+        "taxRate": 0.05,
+        "minimumIncome": 11000
+      },
+      {
+        "taxRate": 0.059,
+        "minimumIncome": 25000
+      }
+    ],
     "realEstateTax": 0.0062,
     "salesTax": 0.065
   },
@@ -31,6 +188,54 @@
     "id": "CA",
     "name": "California",
     "population": 39538223,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.01,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.02,
+        "minimumIncome": 9325
+      },
+      {
+        "taxRate": 0.04,
+        "minimumIncome": 22107
+      },
+      {
+        "taxRate": 0.06,
+        "minimumIncome": 34892
+      },
+      {
+        "taxRate": 0.08,
+        "minimumIncome": 48435
+      },
+      {
+        "taxRate": 0.093,
+        "minimumIncome": 61214
+      },
+      {
+        "taxRate": 0.103,
+        "minimumIncome": 312686
+      },
+      {
+        "taxRate": 0.113,
+        "minimumIncome": 375221
+      },
+      {
+        "taxRate": 0.123,
+        "minimumIncome": 625369
+      },
+      {
+        "taxRate": 0.133,
+        "minimumIncome": 1000000
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.0884,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0076,
     "salesTax": 0.0725
   },
@@ -38,6 +243,18 @@
     "id": "CO",
     "name": "Colorado",
     "population": 5773714,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.0455,
+        "minimumIncome": 0
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.0455,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0051,
     "salesTax": 0.029
   },
@@ -45,6 +262,42 @@
     "id": "CT",
     "name": "Connecticut",
     "population": 3605944,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.03,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.05,
+        "minimumIncome": 10000
+      },
+      {
+        "taxRate": 0.055,
+        "minimumIncome": 50000
+      },
+      {
+        "taxRate": 0.06,
+        "minimumIncome": 100000
+      },
+      {
+        "taxRate": 0.065,
+        "minimumIncome": 200000
+      },
+      {
+        "taxRate": 0.069,
+        "minimumIncome": 250000
+      },
+      {
+        "taxRate": 0.0699,
+        "minimumIncome": 500000
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.075,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0214,
     "salesTax": 0.0635
   },
@@ -52,6 +305,42 @@
     "id": "DE",
     "name": "Delaware",
     "population": 989948,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.022,
+        "minimumIncome": 2000
+      },
+      {
+        "taxRate": 0.039,
+        "minimumIncome": 5000
+      },
+      {
+        "taxRate": 0.048,
+        "minimumIncome": 10000
+      },
+      {
+        "taxRate": 0.052,
+        "minimumIncome": 20000
+      },
+      {
+        "taxRate": 0.0555,
+        "minimumIncome": 25000
+      },
+      {
+        "taxRate": 0.066,
+        "minimumIncome": 60000
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.087,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0057,
     "salesTax": 0
   },
@@ -59,6 +348,18 @@
     "id": "FL",
     "name": "Florida",
     "population": 21538187,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0,
+        "minimumIncome": 0
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.055,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0089,
     "salesTax": 0.06
   },
@@ -66,6 +367,38 @@
     "id": "GA",
     "name": "Georgia",
     "population": 10711908,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.01,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.02,
+        "minimumIncome": 750
+      },
+      {
+        "taxRate": 0.03,
+        "minimumIncome": 2250
+      },
+      {
+        "taxRate": 0.04,
+        "minimumIncome": 3750
+      },
+      {
+        "taxRate": 0.05,
+        "minimumIncome": 5250
+      },
+      {
+        "taxRate": 0.0575,
+        "minimumIncome": 7000
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.0575,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0092,
     "salesTax": 0.04
   },
@@ -73,6 +406,70 @@
     "id": "HI",
     "name": "Hawaii",
     "population": 1455271,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.014,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.032,
+        "minimumIncome": 2400
+      },
+      {
+        "taxRate": 0.055,
+        "minimumIncome": 4800
+      },
+      {
+        "taxRate": 0.064,
+        "minimumIncome": 9600
+      },
+      {
+        "taxRate": 0.068,
+        "minimumIncome": 14400
+      },
+      {
+        "taxRate": 0.072,
+        "minimumIncome": 19200
+      },
+      {
+        "taxRate": 0.076,
+        "minimumIncome": 24000
+      },
+      {
+        "taxRate": 0.079,
+        "minimumIncome": 36000
+      },
+      {
+        "taxRate": 0.0825,
+        "minimumIncome": 48000
+      },
+      {
+        "taxRate": 0.09,
+        "minimumIncome": 150000
+      },
+      {
+        "taxRate": 0.1,
+        "minimumIncome": 175000
+      },
+      {
+        "taxRate": 0.11,
+        "minimumIncome": 200000
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.044,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.054,
+        "minimumIncome": 25000
+      },
+      {
+        "taxRate": 0.064,
+        "minimumIncome": 100000
+      }
+    ],
     "realEstateTax": 0.0028,
     "salesTax": 0.04
   },
@@ -80,6 +477,30 @@
     "id": "ID",
     "name": "Idaho",
     "population": 1839106,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.01,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.03,
+        "minimumIncome": 1588
+      },
+      {
+        "taxRate": 0.045,
+        "minimumIncome": 4763
+      },
+      {
+        "taxRate": 0.06,
+        "minimumIncome": 7939
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.06,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0069,
     "salesTax": 0.06
   },
@@ -87,6 +508,18 @@
     "id": "IL",
     "name": "Illinois",
     "population": 12812508,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.0495,
+        "minimumIncome": 0
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.095,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0227,
     "salesTax": 0.0625
   },
@@ -94,6 +527,18 @@
     "id": "IN",
     "name": "Indiana",
     "population": 6785528,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.0323,
+        "minimumIncome": 0
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.049,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0085,
     "salesTax": 0.07
   },
@@ -101,6 +546,58 @@
     "id": "IA",
     "name": "Iowa",
     "population": 3190369,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.0033,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.0067,
+        "minimumIncome": 1743
+      },
+      {
+        "taxRate": 0.0225,
+        "minimumIncome": 3486
+      },
+      {
+        "taxRate": 0.0414,
+        "minimumIncome": 6972
+      },
+      {
+        "taxRate": 0.0563,
+        "minimumIncome": 15687
+      },
+      {
+        "taxRate": 0.0596,
+        "minimumIncome": 26145
+      },
+      {
+        "taxRate": 0.0625,
+        "minimumIncome": 34860
+      },
+      {
+        "taxRate": 0.0744,
+        "minimumIncome": 52290
+      },
+      {
+        "taxRate": 0.0853,
+        "minimumIncome": 78435
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.055,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.09,
+        "minimumIncome": 100000
+      },
+      {
+        "taxRate": 0.098,
+        "minimumIncome": 250000
+      }
+    ],
     "realEstateTax": 0.0157,
     "salesTax": 0.06
   },
@@ -108,6 +605,30 @@
     "id": "KS",
     "name": "Kansas",
     "population": 2937880,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.031,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.0525,
+        "minimumIncome": 15000
+      },
+      {
+        "taxRate": 0.057,
+        "minimumIncome": 30000
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.04,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.07,
+        "minimumIncome": 50000
+      }
+    ],
     "realEstateTax": 0.0141,
     "salesTax": 0.065
   },
@@ -115,6 +636,18 @@
     "id": "KY",
     "name": "Kentucky",
     "population": 4505836,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.05,
+        "minimumIncome": 0
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.05,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0086,
     "salesTax": 0.06
   },
@@ -122,6 +655,34 @@
     "id": "LA",
     "name": "Louisiana",
     "population": 4657757,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.0185,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.035,
+        "minimumIncome": 12500
+      },
+      {
+        "taxRate": 0.0425,
+        "minimumIncome": 50000
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.035,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.055,
+        "minimumIncome": 50000
+      },
+      {
+        "taxRate": 0.075,
+        "minimumIncome": 150000
+      }
+    ],
     "realEstateTax": 0.0055,
     "salesTax": 0.0445
   },
@@ -129,6 +690,38 @@
     "id": "ME",
     "name": "Maine",
     "population": 1362359,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.058,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.0675,
+        "minimumIncome": 23000
+      },
+      {
+        "taxRate": 0.0715,
+        "minimumIncome": 54450
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.035,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.0793,
+        "minimumIncome": 350000
+      },
+      {
+        "taxRate": 0.0833,
+        "minimumIncome": 1050000
+      },
+      {
+        "taxRate": 0.0893,
+        "minimumIncome": 3500000
+      }
+    ],
     "realEstateTax": 0.0136,
     "salesTax": 0.055
   },
@@ -136,6 +729,46 @@
     "id": "MD",
     "name": "Maryland",
     "population": 6177224,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.02,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.03,
+        "minimumIncome": 1000
+      },
+      {
+        "taxRate": 0.04,
+        "minimumIncome": 2000
+      },
+      {
+        "taxRate": 0.0475,
+        "minimumIncome": 3000
+      },
+      {
+        "taxRate": 0.05,
+        "minimumIncome": 100000
+      },
+      {
+        "taxRate": 0.0525,
+        "minimumIncome": 125000
+      },
+      {
+        "taxRate": 0.055,
+        "minimumIncome": 150000
+      },
+      {
+        "taxRate": 0.0575,
+        "minimumIncome": 250000
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.0825,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0109,
     "salesTax": 0.06
   },
@@ -143,6 +776,18 @@
     "id": "MA",
     "name": "Massachusetts",
     "population": 7029917,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.05,
+        "minimumIncome": 0
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.08,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0123,
     "salesTax": 0.0625
   },
@@ -150,6 +795,18 @@
     "id": "MI",
     "name": "Michigan",
     "population": 10077331,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.0425,
+        "minimumIncome": 0
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.06,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0154,
     "salesTax": 0.06
   },
@@ -157,6 +814,30 @@
     "id": "MN",
     "name": "Minnesota",
     "population": 5706494,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.0535,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.068,
+        "minimumIncome": 28080
+      },
+      {
+        "taxRate": 0.0785,
+        "minimumIncome": 92230
+      },
+      {
+        "taxRate": 0.0985,
+        "minimumIncome": 171220
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.098,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0112,
     "salesTax": 0.06875
   },
@@ -164,6 +845,30 @@
     "id": "MS",
     "name": "Mississippi",
     "population": 2961279,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.04,
+        "minimumIncome": 5000
+      },
+      {
+        "taxRate": 0.05,
+        "minimumIncome": 10000
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.04,
+        "minimumIncome": 5000
+      },
+      {
+        "taxRate": 0.05,
+        "minimumIncome": 10000
+      }
+    ],
     "realEstateTax": 0.0081,
     "salesTax": 0.07
   },
@@ -171,6 +876,54 @@
     "id": "MO",
     "name": "Missouri",
     "population": 6154913,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.015,
+        "minimumIncome": 108
+      },
+      {
+        "taxRate": 0.02,
+        "minimumIncome": 1088
+      },
+      {
+        "taxRate": 0.025,
+        "minimumIncome": 2176
+      },
+      {
+        "taxRate": 0.03,
+        "minimumIncome": 3264
+      },
+      {
+        "taxRate": 0.035,
+        "minimumIncome": 4352
+      },
+      {
+        "taxRate": 0.04,
+        "minimumIncome": 5440
+      },
+      {
+        "taxRate": 0.045,
+        "minimumIncome": 6528
+      },
+      {
+        "taxRate": 0.05,
+        "minimumIncome": 7616
+      },
+      {
+        "taxRate": 0.054,
+        "minimumIncome": 8704
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.04,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0097,
     "salesTax": 0.04225
   },
@@ -178,6 +931,42 @@
     "id": "MT",
     "name": "Montana",
     "population": 1084225,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.01,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.02,
+        "minimumIncome": 3100
+      },
+      {
+        "taxRate": 0.03,
+        "minimumIncome": 5500
+      },
+      {
+        "taxRate": 0.04,
+        "minimumIncome": 8400
+      },
+      {
+        "taxRate": 0.05,
+        "minimumIncome": 11400
+      },
+      {
+        "taxRate": 0.06,
+        "minimumIncome": 14600
+      },
+      {
+        "taxRate": 0.0675,
+        "minimumIncome": 18800
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.0675,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0084,
     "salesTax": 0
   },
@@ -185,6 +974,34 @@
     "id": "NE",
     "name": "Nebraska",
     "population": 1961504,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.0246,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.0351,
+        "minimumIncome": 3440
+      },
+      {
+        "taxRate": 0.0501,
+        "minimumIncome": 20590
+      },
+      {
+        "taxRate": 0.0684,
+        "minimumIncome": 33180
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.0558,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.075,
+        "minimumIncome": 100000
+      }
+    ],
     "realEstateTax": 0.0173,
     "salesTax": 0.055
   },
@@ -192,6 +1009,18 @@
     "id": "NV",
     "name": "Nevada",
     "population": 3104614,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0,
+        "minimumIncome": 0
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.006,
     "salesTax": 0.0685
   },
@@ -199,6 +1028,18 @@
     "id": "NH",
     "name": "New Hampshire",
     "population": 1377529,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0,
+        "minimumIncome": 0
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.076,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0218,
     "salesTax": 0
   },
@@ -206,6 +1047,54 @@
     "id": "NJ",
     "name": "New Jersey",
     "population": 9288994,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.014,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.0175,
+        "minimumIncome": 20000
+      },
+      {
+        "taxRate": 0.035,
+        "minimumIncome": 35000
+      },
+      {
+        "taxRate": 0.05525,
+        "minimumIncome": 40000
+      },
+      {
+        "taxRate": 0.0637,
+        "minimumIncome": 75000
+      },
+      {
+        "taxRate": 0.0897,
+        "minimumIncome": 500000
+      },
+      {
+        "taxRate": 0.1075,
+        "minimumIncome": 1000000
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.065,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.075,
+        "minimumIncome": 5000
+      },
+      {
+        "taxRate": 0.09,
+        "minimumIncome": 100000
+      },
+      {
+        "taxRate": 0.115,
+        "minimumIncome": 1000000
+      }
+    ],
     "realEstateTax": 0.0249,
     "salesTax": 0.06625
   },
@@ -213,6 +1102,38 @@
     "id": "NM",
     "name": "New Mexico",
     "population": 2117522,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.017,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.032,
+        "minimumIncome": 5500
+      },
+      {
+        "taxRate": 0.047,
+        "minimumIncome": 11000
+      },
+      {
+        "taxRate": 0.049,
+        "minimumIncome": 16000
+      },
+      {
+        "taxRate": 0.059,
+        "minimumIncome": 210000
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.048,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.059,
+        "minimumIncome": 500000
+      }
+    ],
     "realEstateTax": 0.008,
     "salesTax": 0.05
   },
@@ -220,6 +1141,54 @@
     "id": "NY",
     "name": "New York",
     "population": 20201249,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.04,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.045,
+        "minimumIncome": 8500
+      },
+      {
+        "taxRate": 0.0525,
+        "minimumIncome": 11700
+      },
+      {
+        "taxRate": 0.0585,
+        "minimumIncome": 13900
+      },
+      {
+        "taxRate": 0.0625,
+        "minimumIncome": 80650
+      },
+      {
+        "taxRate": 0.0685,
+        "minimumIncome": 215400
+      },
+      {
+        "taxRate": 0.0965,
+        "minimumIncome": 1077550
+      },
+      {
+        "taxRate": 0.103,
+        "minimumIncome": 5000000
+      },
+      {
+        "taxRate": 0.109,
+        "minimumIncome": 25000000
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.065,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.0725,
+        "minimumIncome": 5000000
+      }
+    ],
     "realEstateTax": 0.0172,
     "salesTax": 0.04
   },
@@ -227,6 +1196,18 @@
     "id": "NC",
     "name": "North Carolina",
     "population": 10439388,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.0499,
+        "minimumIncome": 0
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.025,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0084,
     "salesTax": 0.0475
   },
@@ -234,6 +1215,42 @@
     "id": "ND",
     "name": "North Dakota",
     "population": 779094,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.011,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.0204,
+        "minimumIncome": 40525
+      },
+      {
+        "taxRate": 0.0227,
+        "minimumIncome": 98100
+      },
+      {
+        "taxRate": 0.0264,
+        "minimumIncome": 204675
+      },
+      {
+        "taxRate": 0.029,
+        "minimumIncome": 445000
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.0141,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.0355,
+        "minimumIncome": 25000
+      },
+      {
+        "taxRate": 0.0431,
+        "minimumIncome": 50000
+      }
+    ],
     "realEstateTax": 0.0098,
     "salesTax": 0.05
   },
@@ -241,6 +1258,30 @@
     "id": "OH",
     "name": "Ohio",
     "population": 11799448,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.02765,
+        "minimumIncome": 25000
+      },
+      {
+        "taxRate": 0.03226,
+        "minimumIncome": 44250
+      },
+      {
+        "taxRate": 0.03688,
+        "minimumIncome": 88450
+      },
+      {
+        "taxRate": 0.0399,
+        "minimumIncome": 110650
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0156,
     "salesTax": 0.0575
   },
@@ -248,6 +1289,38 @@
     "id": "OK",
     "name": "Oklahoma",
     "population": 3959353,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.0025,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.0075,
+        "minimumIncome": 1000
+      },
+      {
+        "taxRate": 0.0175,
+        "minimumIncome": 2500
+      },
+      {
+        "taxRate": 0.0275,
+        "minimumIncome": 3750
+      },
+      {
+        "taxRate": 0.0375,
+        "minimumIncome": 4900
+      },
+      {
+        "taxRate": 0.0475,
+        "minimumIncome": 7200
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.04,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.009,
     "salesTax": 0.045
   },
@@ -255,6 +1328,34 @@
     "id": "OR",
     "name": "Oregon",
     "population": 4237256,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.0475,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.0675,
+        "minimumIncome": 3650
+      },
+      {
+        "taxRate": 0.0875,
+        "minimumIncome": 9200
+      },
+      {
+        "taxRate": 0.099,
+        "minimumIncome": 125000
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.066,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.076,
+        "minimumIncome": 1000000
+      }
+    ],
     "realEstateTax": 0.0097,
     "salesTax": 0
   },
@@ -262,6 +1363,18 @@
     "id": "PA",
     "name": "Pennsylvania",
     "population": 13002700,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.0307,
+        "minimumIncome": 0
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.0999,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0158,
     "salesTax": 0.06
   },
@@ -269,6 +1382,26 @@
     "id": "RI",
     "name": "Rhode Island",
     "population": 1097379,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.0375,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.0475,
+        "minimumIncome": 68200
+      },
+      {
+        "taxRate": 0.0599,
+        "minimumIncome": 155050
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.07,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0163,
     "salesTax": 0.07
   },
@@ -276,6 +1409,38 @@
     "id": "SC",
     "name": "South Carolina",
     "population": 5118425,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.03,
+        "minimumIncome": 3200
+      },
+      {
+        "taxRate": 0.04,
+        "minimumIncome": 6410
+      },
+      {
+        "taxRate": 0.05,
+        "minimumIncome": 9620
+      },
+      {
+        "taxRate": 0.06,
+        "minimumIncome": 12820
+      },
+      {
+        "taxRate": 0.07,
+        "minimumIncome": 16040
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.05,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0057,
     "salesTax": 0.06
   },
@@ -283,6 +1448,18 @@
     "id": "SD",
     "name": "South Dakota",
     "population": 886667,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0,
+        "minimumIncome": 0
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0131,
     "salesTax": 0.045
   },
@@ -290,6 +1467,18 @@
     "id": "TN",
     "name": "Tennessee",
     "population": 6910840,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0,
+        "minimumIncome": 0
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.065,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0071,
     "salesTax": 0.07
   },
@@ -297,6 +1486,18 @@
     "id": "TX",
     "name": "Texas",
     "population": 29145505,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0,
+        "minimumIncome": 0
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.018,
     "salesTax": 0.0625
   },
@@ -304,6 +1505,18 @@
     "id": "UT",
     "name": "Utah",
     "population": 3271616,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.0495,
+        "minimumIncome": 0
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.0495,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0063,
     "salesTax": 0.061
   },
@@ -311,6 +1524,38 @@
     "id": "VT",
     "name": "Vermont",
     "population": 643077,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.0335,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.066,
+        "minimumIncome": 40950
+      },
+      {
+        "taxRate": 0.076,
+        "minimumIncome": 99200
+      },
+      {
+        "taxRate": 0.0875,
+        "minimumIncome": 206950
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.06,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.07,
+        "minimumIncome": 10000
+      },
+      {
+        "taxRate": 0.085,
+        "minimumIncome": 25000
+      }
+    ],
     "realEstateTax": 0.019,
     "salesTax": 0.06
   },
@@ -318,6 +1563,30 @@
     "id": "VA",
     "name": "Virginia",
     "population": 8631393,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.02,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.03,
+        "minimumIncome": 3000
+      },
+      {
+        "taxRate": 0.05,
+        "minimumIncome": 5000
+      },
+      {
+        "taxRate": 0.0575,
+        "minimumIncome": 17000
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.06,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0082,
     "salesTax": 0.053
   },
@@ -325,6 +1594,18 @@
     "id": "WA",
     "name": "Washington",
     "population": 7705281,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0,
+        "minimumIncome": 0
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0098,
     "salesTax": 0.065
   },
@@ -332,6 +1613,34 @@
     "id": "WV",
     "name": "West Virginia",
     "population": 1793716,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.03,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.04,
+        "minimumIncome": 10000
+      },
+      {
+        "taxRate": 0.045,
+        "minimumIncome": 25000
+      },
+      {
+        "taxRate": 0.06,
+        "minimumIncome": 40000
+      },
+      {
+        "taxRate": 0.065,
+        "minimumIncome": 60000
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.065,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0058,
     "salesTax": 0.06
   },
@@ -339,6 +1648,30 @@
     "id": "WI",
     "name": "Wisconsin",
     "population": 5893718,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0.0354,
+        "minimumIncome": 0
+      },
+      {
+        "taxRate": 0.0465,
+        "minimumIncome": 12760
+      },
+      {
+        "taxRate": 0.053,
+        "minimumIncome": 25520
+      },
+      {
+        "taxRate": 0.0765,
+        "minimumIncome": 280950
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0.079,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0185,
     "salesTax": 0.05
   },
@@ -346,6 +1679,18 @@
     "id": "WY",
     "name": "Wyoming",
     "population": 576851,
+    "personalIncomeTax": [
+      {
+        "taxRate": 0,
+        "minimumIncome": 0
+      }
+    ],
+    "corporateTax": [
+      {
+        "taxRate": 0,
+        "minimumIncome": 0
+      }
+    ],
     "realEstateTax": 0.0061,
     "salesTax": 0.04
   }
