@@ -134,7 +134,7 @@
     "population": 3011524,
     "highIncomeTax": {
       "minimumIncome": 84500,
-      "personalIncomeTaxBrackets": [
+      "taxBrackets": [
         {
           "taxRate": 0.02,
           "minimumIncome": 0

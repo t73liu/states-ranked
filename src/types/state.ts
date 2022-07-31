@@ -14,7 +14,7 @@ export interface State {
   salesTax: number;
   personalIncomeTaxBrackets: TaxBracket[];
   // Some states have an alternate tax brackets for higher personal income.
-  highIncomeTaxBrackets?: AlternateTaxBracket;
+  highIncomeTax?: AlternateTaxBracket;
   corporateTaxBrackets: TaxBracket[];
 
   // Derived average tax rate.
@@ -24,7 +24,7 @@ export interface State {
 
 export interface AlternateTaxBracket {
   minimumIncome: number;
-  personalIncomeTax: TaxBracket[];
+  taxBrackets: TaxBracket[];
 }
 
 export interface TaxBracket {

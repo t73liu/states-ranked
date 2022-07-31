@@ -93,19 +93,33 @@
   let states = json as State[];
   states.map((s) => {
     s.corporateTax = calcTaxRate(s.corporateTaxBrackets, corporateIncome);
-    s.personalIncomeTax = calcTaxRate(
-      s.personalIncomeTaxBrackets,
-      personalIncome
-    );
+    if (s.highIncomeTax && personalIncome > s.highIncomeTax.minimumIncome) {
+      s.personalIncomeTax = calcTaxRate(
+        s.highIncomeTax.taxBrackets,
+        personalIncome
+      );
+    } else {
+      s.personalIncomeTax = calcTaxRate(
+        s.personalIncomeTaxBrackets,
+        personalIncome
+      );
+    }
   });
 
   $: updatePersonalIncomeTaxRates = (num) => {
     personalIncome = num;
     for (let s of states) {
-      s.personalIncomeTax = calcTaxRate(
-        s.personalIncomeTaxBrackets,
-        personalIncome
-      );
+      if (s.highIncomeTax && personalIncome > s.highIncomeTax.minimumIncome) {
+        s.personalIncomeTax = calcTaxRate(
+          s.highIncomeTax.taxBrackets,
+          personalIncome
+        );
+      } else {
+        s.personalIncomeTax = calcTaxRate(
+          s.personalIncomeTaxBrackets,
+          personalIncome
+        );
+      }
     }
     states = states;
   };
