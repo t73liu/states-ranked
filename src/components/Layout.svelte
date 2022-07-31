@@ -6,6 +6,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
+    <meta
+      name="description"
+      content="Ranking table for USA states by taxes, etc."
+    />
     <link rel="icon" type="image/png" href="/states-ranked/favicon-32x32.png" />
     <title>{title}</title>
   </head>
